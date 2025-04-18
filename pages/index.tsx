@@ -14,16 +14,16 @@ export default function Home() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">About Us</h2>
           <p className="text-lg leading-relaxed text-gray-700">
-            Dublin Fur Care is a friendly, mobile grooming service run by Bahar — a lifelong animal lover with years of experience caring for dogs and cats of all kinds. We believe grooming should be stress-free and tailored to your pet’s personality.
+            Dublin Fur Care is run by Bahar. She’s a gentle and experienced groomer with a lifelong love of animals. She has a calm and patient approach that comes from years of caring for nervous and stray cats.
             <br /><br />
-            There are no cages, no rushing, and no noisy salons. Just 1-on-1 attention, right at your doorstep — with plenty of tail wags and gentle hands.
+            Every appointment is one to one. No cages. No rushing. No noisy salon. Whether it’s a quick tidy-up or a full groom, your pet gets her full attention in a quiet and familiar setting.
           </p>
         </div>
       </section>
 
       {/* Mid-text */}
       <section className="py-12 text-center text-lg max-w-3xl mx-auto px-6">
-        Every pet is different, so we take things at their pace. No rush, no cages, and no other animals. Just one-to-one care, done properly.
+        Every pet is different, so we take things at their pace. No rush, no cages, and no other animals. Just one to one care, done properly.
       </section>
 
       <Gallery />
