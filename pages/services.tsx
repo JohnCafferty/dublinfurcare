@@ -1,16 +1,14 @@
 export default function Services() {
     return (
       <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden">
-        {/* Background Image */}
-        <div
-          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0 h-full"
-          style={{
-            backgroundImage: "url('/images/cropped.jpg')",
-            backgroundPosition: "center center",
-          }}
-        ></div>
+        {/* Faded Image Behind Content */}
+        <img
+          src="/images/cropped.jpg"
+          alt="Faded background cat"
+          className="absolute inset-0 w-full h-full object-cover opacity-10 z-0"
+        />
   
-        {/* Content */}
+        {/* Main Content */}
         <div className="relative max-w-4xl mx-auto text-gray-800 z-10 text-center">
           <h1 className="text-3xl font-bold mb-6">Services</h1>
   
