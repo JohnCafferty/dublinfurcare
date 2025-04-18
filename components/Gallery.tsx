@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const gallery = [
   {
-    img: "/images/bath-brush.jpg.jpg", // Note the .jpg.jpg here!
+    img: "/images/bath-brush.jpg.jpg", // match your file exactly
     caption: "Mobile grooming van in Dublin",
   },
   {
