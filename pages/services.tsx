@@ -1,15 +1,16 @@
 export default function Services() {
     return (
-      <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden">
-        {/* Image as actual tag so it always loads */}
-        <img
-          src="/images/cropped.jpg"
-          alt=""
-          className="absolute inset-0 w-full h-full object-cover opacity-10 z-0"
-        />
+      <main className="relative min-h-screen bg-white overflow-hidden">
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10 z-0"
+          style={{
+            backgroundImage: "url('/images/cropped.jpg')",
+          }}
+        ></div>
   
-        {/* Main content */}
-        <div className="relative max-w-4xl mx-auto text-gray-800 z-10 text-center">
+        {/* Main Content */}
+        <div className="relative z-10 px-6 py-16 max-w-4xl mx-auto text-center text-gray-800">
           <h1 className="text-3xl font-bold mb-6">Services</h1>
   
           <div className="space-y-6 text-left">
