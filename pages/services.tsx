@@ -3,13 +3,13 @@ export default function Services() {
       <main className="relative min-h-screen bg-white overflow-hidden">
         {/* Background Image */}
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10 z-0"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10 z-0 h-full"
           style={{
-            backgroundImage: "url('/images/cropped.jpg')",
+            backgroundImage: "url('/images/cat-background.jpg')",
           }}
         ></div>
   
-        {/* Main Content */}
+        {/* Content */}
         <div className="relative z-10 px-6 py-16 max-w-4xl mx-auto text-center text-gray-800">
           <h1 className="text-3xl font-bold mb-6">Services</h1>
   
