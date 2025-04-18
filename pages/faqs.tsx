@@ -1,18 +1,11 @@
 export default function Faqs() {
     return (
       <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden">
-        {/* Background Images */}
+        {/* Background Image — same for all screens */}
         <div
-          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0 md:hidden"
+          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0"
           style={{
             backgroundImage: "url('/images/cropped.jpg')",
-            backgroundPosition: "center center",
-          }}
-        />
-        <div
-          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0 hidden md:block"
-          style={{
-            backgroundImage: "url('/images/bahar-cats1.png')",
             backgroundPosition: "center center",
           }}
         />
