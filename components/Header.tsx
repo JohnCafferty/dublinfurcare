@@ -1,4 +1,12 @@
+import { useState } from "react";
+
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleNavClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <header className="py-4 px-6 bg-white border-b border-black shadow-md sticky top-0 z-50 flex items-center justify-between">
       <h1 className="text-3xl text-black" style={{ fontFamily: 'Chewy, cursive' }}>
@@ -14,29 +22,25 @@ export default function Header() {
         <a href="#contact" className="hover:underline">Contact</a>
       </nav>
 
-      {/* Mobile Burger Icon */}
+      {/* Burger Icon */}
       <button
         className="md:hidden text-3xl"
         aria-label="Toggle navigation"
-        onClick={() => {
-          const nav = document.getElementById("mobile-nav");
-          if (nav) nav.classList.toggle("hidden");
-        }}
+        onClick={() => setMenuOpen(!menuOpen)}
       >
         ☰
       </button>
 
       {/* Mobile Nav */}
-      <nav
-        id="mobile-nav"
-        className="md:hidden hidden absolute top-full left-0 w-full bg-white border-t border-black px-6 py-4 text-center"
-      >
-        <a href="/services" className="block mb-2 hover:underline">Services</a>
-        <a href="/our-story" className="block mb-2 hover:underline">Our Story</a>
-        <a href="/faqs" className="block mb-2 hover:underline">FAQs</a>
-        <a href="#gallery" className="block mb-2 hover:underline">Gallery</a>
-        <a href="#contact" className="block hover:underline">Contact</a>
-      </nav>
+      {menuOpen && (
+        <nav className="md:hidden absolute top-full left-0 w-full bg-white border-t border-black px-6 py-4 text-center z-40">
+          <a href="/services" className="block mb-2 hover:underline" onClick={handleNavClick}>Services</a>
+          <a href="/our-story" className="block mb-2 hover:underline" onClick={handleNavClick}>Our Story</a>
+          <a href="/faqs" className="block mb-2 hover:underline" onClick={handleNavClick}>FAQs</a>
+          <a href="#gallery" className="block mb-2 hover:underline" onClick={handleNavClick}>Gallery</a>
+          <a href="#contact" className="block hover:underline" onClick={handleNavClick}>Contact</a>
+        </nav>
+      )}
     </header>
   );
 }
