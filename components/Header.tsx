@@ -7,6 +7,9 @@ export default function Header() {
 
       {/* Desktop Nav */}
       <nav className="hidden md:flex gap-6">
+        <a href="/services" className="hover:underline">Services</a>
+        <a href="/our-story" className="hover:underline">Our Story</a>
+        <a href="/faqs" className="hover:underline">FAQs</a>
         <a href="#gallery" className="hover:underline">Gallery</a>
         <a href="#contact" className="hover:underline">Contact</a>
       </nav>
@@ -28,6 +31,9 @@ export default function Header() {
         id="mobile-nav"
         className="md:hidden hidden absolute top-full left-0 w-full bg-white border-t border-black px-6 py-4 text-center"
       >
+        <a href="/services" className="block mb-2 hover:underline">Services</a>
+        <a href="/our-story" className="block mb-2 hover:underline">Our Story</a>
+        <a href="/faqs" className="block mb-2 hover:underline">FAQs</a>
         <a href="#gallery" className="block mb-2 hover:underline">Gallery</a>
         <a href="#contact" className="block hover:underline">Contact</a>
       </nav>
