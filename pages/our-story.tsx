@@ -1,14 +1,21 @@
 export default function OurStory() {
     return (
       <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden">
-        {/* Centered Background Image (mobile-safe) */}
+        {/* Background Image - swaps between cropped and full */}
         <div
           className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0"
           style={{
-            backgroundImage: "url('/images/bahar-cats1.png')",
-            backgroundPosition: "center center",
+            backgroundImage:
+              "url('/images/cropped.jpg')",
           }}
-        ></div>
+        />
+        <div
+          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0 hidden md:block"
+          style={{
+            backgroundImage:
+              "url('/images/bahar-cats1.png')",
+          }}
+        />
   
         {/* Content */}
         <div className="relative max-w-3xl mx-auto text-gray-800 text-center z-10">
