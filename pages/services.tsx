@@ -1,13 +1,23 @@
 export default function Services() {
     return (
       <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden">
+        {/* Background Images */}
         <div
-          className="absolute inset-0 bg-no-repeat bg-cover bg-center opacity-10 z-0"
+          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0 md:hidden"
+          style={{
+            backgroundImage: "url('/images/cropped.jpg')",
+            backgroundPosition: "center center",
+          }}
+        />
+        <div
+          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0 hidden md:block"
           style={{
             backgroundImage: "url('/images/cat-window.jpg')",
+            backgroundPosition: "center center",
           }}
-        ></div>
+        />
   
+        {/* Content */}
         <div className="relative max-w-4xl mx-auto text-gray-800 z-10 text-center">
           <h1 className="text-3xl font-bold mb-6">Services</h1>
   
@@ -34,6 +44,7 @@ export default function Services() {
             </div>
           </div>
   
+          {/* Back to Home Button */}
           <a
             href="/"
             className="inline-block mt-10 px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition"
