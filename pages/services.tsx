@@ -1,14 +1,14 @@
 export default function Services() {
     return (
       <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden">
-        {/* Background Image — works on all screen sizes */}
+        {/* Background Image */}
         <div
-          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0"
+          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0 h-full"
           style={{
             backgroundImage: "url('/images/cropped.jpg')",
             backgroundPosition: "center center",
           }}
-        />
+        ></div>
   
         {/* Content */}
         <div className="relative max-w-4xl mx-auto text-gray-800 z-10 text-center">
