@@ -1,14 +1,14 @@
 export default function Services() {
     return (
       <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden">
-        {/* Faded Image Behind Content */}
+        {/* Image as actual tag so it always loads */}
         <img
           src="/images/cropped.jpg"
-          alt="Faded background cat"
+          alt=""
           className="absolute inset-0 w-full h-full object-cover opacity-10 z-0"
         />
   
-        {/* Main Content */}
+        {/* Main content */}
         <div className="relative max-w-4xl mx-auto text-gray-800 z-10 text-center">
           <h1 className="text-3xl font-bold mb-6">Services</h1>
   
