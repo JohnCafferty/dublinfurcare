@@ -5,7 +5,7 @@ export default function Faqs() {
         <div
           className="absolute inset-0 bg-no-repeat bg-cover bg-center opacity-10 z-0"
           style={{
-            backgroundImage: "url('/images/cat-window.jpg')",
+            backgroundImage: "url('/images/bahar-cats1.png')",
           }}
         ></div>
   
