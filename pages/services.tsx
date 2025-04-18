@@ -1,32 +1,46 @@
 export default function Services() {
     return (
-      <main className="px-6 py-12 max-w-4xl mx-auto text-gray-800">
-        <h1 className="text-3xl font-bold mb-6 text-center">Services</h1>
+      <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden">
+        <div
+          className="absolute inset-0 bg-no-repeat bg-cover bg-center opacity-10 z-0"
+          style={{
+            backgroundImage: "url('/images/cat-window.jpg')",
+          }}
+        ></div>
   
-        <div className="space-y-6">
-          <div>
-            <h2 className="text-xl font-semibold">Full Groom</h2>
-            <p>Includes wash, dry, brush, full body trim, ear cleaning and nail clipping.</p>
+        <div className="relative max-w-4xl mx-auto text-gray-800 z-10 text-center">
+          <h1 className="text-3xl font-bold mb-6">Services</h1>
+  
+          <div className="space-y-6 text-left">
+            <div>
+              <h2 className="text-xl font-semibold">Full Groom</h2>
+              <p>Includes wash, dry, brush, full body trim, ear cleaning and nail clipping.</p>
+            </div>
+            <div>
+              <h2 className="text-xl font-semibold">Bath & Brush</h2>
+              <p>A warm bath, gentle blow-dry and a good brush-out. Great for in between full grooms.</p>
+            </div>
+            <div>
+              <h2 className="text-xl font-semibold">Nail Trim</h2>
+              <p>Quick and calm nail clipping. We let them settle and take our time.</p>
+            </div>
+            <div>
+              <h2 className="text-xl font-semibold">Cat Groom</h2>
+              <p>Bathing, brushing and light trimming if needed. We keep things quiet and calm.</p>
+            </div>
+            <div>
+              <h2 className="text-xl font-semibold">Puppy Intro</h2>
+              <p>A short, gentle first groom to help puppies feel safe and relaxed.</p>
+            </div>
           </div>
-          <div>
-            <h2 className="text-xl font-semibold">Bath & Brush</h2>
-            <p>A warm bath, gentle blow-dry and a good brush-out. Great for in between full grooms.</p>
-          </div>
-          <div>
-            <h2 className="text-xl font-semibold">Nail Trim</h2>
-            <p>Quick and calm nail clipping. We let them settle and take our time.</p>
-          </div>
-          <div>
-            <h2 className="text-xl font-semibold">Cat Groom</h2>
-            <p>Bathing, brushing and light trimming if needed. We keep things quiet and calm.</p>
-          </div>
-          <div>
-            <h2 className="text-xl font-semibold">Puppy Intro</h2>
-            <p>A short, gentle first groom to help puppies feel safe and relaxed.</p>
-          </div>
+  
+          <a
+            href="/"
+            className="inline-block mt-10 px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition"
+          >
+            ← Back to Home
+          </a>
         </div>
-  
-        <p className="mt-8">If you're not sure what your pet needs, just get in touch.</p>
       </main>
     );
   }
