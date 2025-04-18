@@ -1,9 +1,18 @@
 import Image from "next/image";
 
 const gallery = [
-  { img: "/images/bath-brush.jpg.jpg", caption: "Mobile grooming van in Dublin" },
-  { img: "/images/scissors.jpg", caption: "Full grooming session in progress" },
-  { img: "/images/scissors2.jpg", caption: "Tidy trim for a happy pup" },
+  {
+    img: "/images/bath-brush.jpg.jpg", // Note the .jpg.jpg here!
+    caption: "Mobile grooming van in Dublin",
+  },
+  {
+    img: "/images/scissors.jpg",
+    caption: "Full grooming session in progress",
+  },
+  {
+    img: "/images/scissors2.jpg",
+    caption: "Tidy trim for a happy pup",
+  },
 ];
 
 export default function Gallery() {
