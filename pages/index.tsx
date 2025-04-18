@@ -11,7 +11,7 @@ export default function Home() {
 
       {/* Mid-text */}
       <section className="py-12 text-center text-lg max-w-3xl mx-auto px-6">
-        Every pet is different, so we take things at their pace. No rush, no cages, and no other animals. Just one to one care, done properly.
+        Every pet is different, so we take things at their pace. No rush, no cages and no other animals. Just one to one care, done properly.
       </section>
 
       <Gallery />
