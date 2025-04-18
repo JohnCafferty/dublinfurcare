@@ -2,8 +2,9 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="bg-[#ffc107] min-h-screen flex items-center">
-      <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col-reverse lg:flex-row items-center gap-10 w-full">
+    <section className="bg-[#ffc107] py-10">
+      <div className="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-10">
+        
         {/* Left: Text and Button */}
         <div className="lg:w-1/2 text-center lg:text-left">
           <h1 className="text-5xl lg:text-6xl font-bold mb-4">
@@ -25,7 +26,7 @@ export default function Hero() {
         </div>
 
         {/* Right: Video or Image */}
-        <div className="lg:w-1/2 max-w-md w-full mx-auto">
+        <div className="lg:w-1/2 w-full max-w-md mx-auto">
           <div className="rounded-xl shadow-md overflow-hidden">
             <video
               autoPlay
