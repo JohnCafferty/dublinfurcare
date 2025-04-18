@@ -3,15 +3,12 @@ import Image from "next/image";
 const gallery = [
   {
     img: "/images/cat-window.jpg",
-    caption: "One of the regulars keeping an eye on things",
   },
   {
     img: "/images/scissors.jpg",
-    caption: "Full grooming session in progress",
   },
   {
     img: "/images/scissors2.jpg",
-    caption: "Tidy trim for a happy pup",
   },
 ];
 
@@ -24,16 +21,15 @@ export default function Gallery() {
           {gallery.map((item, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow overflow-hidden text-center"
+              className="bg-white rounded-xl shadow overflow-hidden text-center flex justify-center"
             >
               <Image
                 src={item.img}
-                alt={item.caption}
+                alt={`Gallery image ${index + 1}`}
                 width={500}
                 height={300}
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-contain"
               />
-              <p className="p-4 text-gray-700">{item.caption}</p>
             </div>
           ))}
         </div>
