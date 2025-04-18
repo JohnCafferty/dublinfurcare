@@ -30,6 +30,23 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Meet the Team */}
+        <section className="py-12 px-4 bg-white text-center">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl font-bold mb-4">Meet the Team</h2>
+            <p className="text-lg text-gray-700 mb-6">
+              Bahar does the grooming. These two keep things running smoothly.
+            </p>
+            <div className="max-w-md mx-auto rounded-xl overflow-hidden shadow-lg">
+              <img
+                src="/images/bahar-cats.png"
+                alt="Bahar's two cats with bow ties"
+                className="w-full object-contain"
+              />
+            </div>
+          </div>
+        </section>
+
         {/* Why Choose Us */}
         <section className="py-12 bg-[#fffbe6]">
           <div className="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
