@@ -1,6 +1,7 @@
 export default function Faqs() {
     return (
       <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden">
+        {/* Background Image */}
         <div
           className="absolute inset-0 bg-no-repeat bg-cover bg-center opacity-10 z-0"
           style={{
@@ -8,6 +9,7 @@ export default function Faqs() {
           }}
         ></div>
   
+        {/* Content */}
         <div className="relative max-w-3xl mx-auto text-gray-800 z-10 text-center">
           <h1 className="text-3xl font-bold mb-6">What to Expect</h1>
   
@@ -34,6 +36,7 @@ export default function Faqs() {
             </div>
           </div>
   
+          {/* Back to Home Button */}
           <a
             href="/"
             className="inline-block mt-10 px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition"
