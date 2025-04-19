@@ -1,17 +1,14 @@
+import Head from "next/head";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import Gallery from "../components/Gallery"; // ✅ Capital G
+import Gallery from "../components/Gallery";
 import Contact from "../components/Contact";
-import Head from "next/head";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Chewy&display=swap"
-          rel="stylesheet"
-        />
+        <title>Dub Dogs Grooming</title>
       </Head>
 
       <main className="font-sans">
@@ -22,28 +19,13 @@ export default function Home() {
         <section className="py-12 px-4 bg-white">
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">About Us</h2>
-            <p className="text-lg leading-relaxed text-gray-700">
-              Dublin Fur Care is run by Bahar. She’s a gentle and experienced groomer with a lifelong love of animals. She has a calm and patient approach that comes from years of caring for nervous and stray cats.
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Dub Dogs Grooming is run by Bahar, a gentle and experienced groomer with a lifelong love of animals.
+              Her calm and patient approach comes from years of caring for nervous and stray cats.
               <br /><br />
-              Every appointment is one to one. No cages. No rushing. No noisy salon. Whether it’s a quick tidy-up or a full groom, your pet gets her full attention in a quiet and familiar setting.
+              Every appointment is one to one. No cages. No rushing. No noisy salon.
+              Whether it’s a quick tidy-up or a full groom, your pet gets her full attention in a quiet and familiar setting.
             </p>
-          </div>
-        </section>
-
-        {/* Meet the Team */}
-        <section className="py-12 px-4 bg-white text-center">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold mb-4">Meet the Team</h2>
-            <p className="text-lg text-gray-700 mb-6">
-              Bahar does the grooming. These two keep things running smoothly.
-            </p>
-            <div className="max-w-md mx-auto rounded-xl overflow-hidden shadow-lg">
-              <img
-                src="/images/bahar-cats.png"
-                alt="Bahar's two cats with bow ties"
-                className="w-full object-contain"
-              />
-            </div>
           </div>
         </section>
 
@@ -65,45 +47,39 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Services Section */}
+        {/* Services Preview */}
         <section className="py-12 px-4 bg-white">
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-2xl font-bold mb-8">Services</h2>
             <div className="grid gap-8 md:grid-cols-2 text-left">
               <div>
                 <h3 className="text-lg font-semibold mb-1">Full Groom</h3>
-                <p className="text-gray-700">Includes wash, dry, brush, full body trim, ear cleaning and nail clipping</p>
+                <p className="text-gray-700">Wash, dry, full trim, nails & ears</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-1">Bath & Brush</h3>
-                <p className="text-gray-700">Ideal for maintenance between full grooms</p>
+                <p className="text-gray-700">Ideal between grooms</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-1">Nail Trim</h3>
-                <p className="text-gray-700">Quick and stress-free nail clipping</p>
+                <p className="text-gray-700">Quick, calm and stress-free</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-1">Cat Groom</h3>
-                <p className="text-gray-700">Gentle handling with a calm and quiet approach</p>
-              </div>
-              <div>
-                <h3 className="text-lg font-semibold mb-1">Puppy Intro</h3>
-                <p className="text-gray-700">A short, positive first grooming experience</p>
+                <p className="text-gray-700">Quiet and gentle handling</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Areas We Cover */}
+        {/* Service Area Map */}
         <section className="py-12 px-4 bg-white">
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-2xl font-bold mb-4">Areas We Cover</h2>
             <p className="text-lg text-gray-700">
-              We’re based around Stepaside and usually cover Carrickmines, Sandyford, Kilternan, Ballyogan, Leopardstown, Glencullen, Belarmine and Dundrum.
-              If you're nearby and not sure, just ask and we’ll let you know.
+              Based in Stepaside. Covering Carrickmines, Sandyford, Kilternan, Leopardstown, Glencullen, Dundrum, Belarmine & nearby.
             </p>
 
-            {/* Embedded Google Map */}
             <div className="mt-10 aspect-video max-w-4xl mx-auto rounded shadow overflow-hidden">
               <iframe
                 title="Service Area Map"
