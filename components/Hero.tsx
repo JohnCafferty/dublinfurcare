@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="bg-[#ffc107] py-16 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-10">
-        {/* Left: Text and Button */}
-        <div className="lg:w-1/2 text-center lg:text-left">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
+        {/* Left: Text + Button */}
+        <div className="w-full lg:w-1/2 max-w-md text-center lg:text-left">
           <h1
-            className="text-5xl lg:text-6xl font-bold mb-4 text-black"
+            className="text-5xl font-bold mb-4 text-black"
             style={{ fontFamily: "'Chewy', cursive" }}
           >
             Dublin Fur Care
@@ -27,8 +27,8 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right: Video or Image */}
-        <div className="lg:w-1/2 w-full max-w-md mx-auto">
+        {/* Right: Video */}
+        <div className="w-full lg:w-1/2 max-w-md mx-auto">
           <div className="rounded-xl shadow-md overflow-hidden">
             <video
               autoPlay
