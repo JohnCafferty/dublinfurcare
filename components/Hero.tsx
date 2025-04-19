@@ -32,7 +32,7 @@ export default function Hero() {
               playsInline
               className="rounded-xl w-full h-auto object-cover"
             >
-              <source src="/images/hero-intro.mp4" type="video/mp4" />
+              <source src="/images/welcome.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
