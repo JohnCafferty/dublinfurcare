@@ -2,16 +2,8 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden py-16 min-h-screen bg-[#ffc107]">
-      {/* Faded background image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center opacity-10 z-0"
-        style={{
-          backgroundImage: "url('/images/cat-bg-final.jpg')",
-        }}
-      ></div>
-
-      <div className="relative z-10 max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-10">
+    <section className="bg-[#ffc107] py-16 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-10">
         {/* Left: Text and Button */}
         <div className="lg:w-1/2 text-center lg:text-left">
           <h1
@@ -35,7 +27,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right: Video */}
+        {/* Right: Video or Image */}
         <div className="lg:w-1/2 w-full max-w-md mx-auto">
           <div className="rounded-xl shadow-md overflow-hidden">
             <video
