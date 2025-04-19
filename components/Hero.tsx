@@ -34,6 +34,7 @@ export default function Hero() {
             </a>
             <Image src="/images/cat-side.png" alt="Cat" width={48} height={48} />
           </div>
+          
         </div>
 
         {/* Right: Welcome Video */}
