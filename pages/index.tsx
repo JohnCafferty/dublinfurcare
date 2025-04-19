@@ -33,22 +33,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Welcome Video Section (under About Us) */}
-        <section className="bg-black py-16 px-6 text-center">
-          <div className="max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-auto rounded-xl object-cover"
-            >
-              <source src="/images/welcome.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </section>
-
         {/* Meet the Team */}
         <section className="py-16 px-6 bg-[#f7f6f4] text-center">
           <div className="max-w-3xl mx-auto">
@@ -63,6 +47,22 @@ export default function Home() {
                 className="w-full object-contain"
               />
             </div>
+          </div>
+        </section>
+
+        {/* Video Section (smaller, under Meet the Team) */}
+        <section className="bg-black py-12 px-4 text-center">
+          <div className="max-w-xl mx-auto rounded-xl overflow-hidden shadow-lg">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-auto object-cover rounded-xl"
+            >
+              <source src="/images/welcome.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </section>
 
