@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import Gallery from "../components/Gallery";
+import Gallery from "../components/gallery";
 import Contact from "../components/Contact";
 import Head from "next/head";
 
