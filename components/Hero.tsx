@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="bg-[#ffc107] py-12 overflow-hidden">
-      <div className="max-w-5xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center justify-center gap-10">
+      <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
         {/* Left: Text and Button */}
-        <div className="w-full max-w-md text-center lg:text-left">
+        <div className="w-full max-w-md justify-self-center text-center lg:text-left">
           <h1
             className="text-5xl font-bold mb-4 text-black"
             style={{ fontFamily: "'Chewy', cursive" }}
@@ -27,8 +27,8 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right: Video or Image */}
-        <div className="w-full max-w-md mx-auto">
+        {/* Right: Video */}
+        <div className="w-full max-w-md justify-self-center">
           <div className="rounded-xl shadow-md overflow-hidden">
             <video
               autoPlay
