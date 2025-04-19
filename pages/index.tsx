@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Header from "../components/Header";
-import Hero from "../components/Hero";
 import Gallery from "../components/Gallery";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -9,6 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <title>DUB DOGS GROOMING</title>
         <link
           href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600&display=swap"
           rel="stylesheet"
@@ -17,32 +17,60 @@ export default function Home() {
 
       <main className="font-inter bg-[#fdfcfb] text-gray-900">
         <Header />
-        <Hero />
 
-        {/* About Section */}
-        <section className="py-16 px-6 bg-gradient-to-b from-white to-[#f7f6f4]">
-          <div className="max-w-5xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">About Us</h2>
-            <p className="text-lg leading-relaxed text-gray-700">
-              Dublin Fur Care is run by Bahar. She’s a gentle and experienced groomer with a lifelong love of animals. She has a calm and patient approach that comes from years of caring for nervous and stray cats.
-              <br /><br />
-              Every appointment is one to one. No cages. No rushing. No noisy salon. Whether it’s a quick tidy-up or a full groom, your pet gets her full attention in a quiet and familiar setting.
-            </p>
+        {/* Hero */}
+        <section className="bg-[#FDB813] py-28 text-center">
+          <h1
+            className="text-6xl lg:text-7xl font-bold text-black tracking-wide"
+            style={{ fontFamily: "'Anton', sans-serif" }}
+          >
+            DUB DOGS GROOMING
+          </h1>
+          <p className="mt-6 text-xl text-black font-medium">
+            Friendly, professional mobile grooming across South Dublin
+          </p>
+          <div className="mt-10 flex justify-center items-center gap-4">
+            <img src="/images/dog-side.png" alt="Dog Icon" width={48} height={48} />
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-white text-black border-2 border-black rounded-full font-semibold shadow hover:bg-[#fff3c4] hover:scale-105 transition-all duration-200"
+            >
+              🐾 Book Now 🐾
+            </a>
+            <img src="/images/cat-side.png" alt="Cat Icon" width={48} height={48} />
           </div>
         </section>
 
-        {/* Meet the Team */}
-        <section className="py-16 px-6 bg-[#f7f6f4] text-center">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold mb-4">Meet the Team</h2>
-            <p className="text-lg text-gray-700 mb-6">
-              Bahar does the grooming. These two keep things running smoothly.
+        {/* Video Section */}
+        <section className="bg-black py-16 px-6 text-center">
+          <div className="max-w-4xl mx-auto rounded-xl overflow-hidden shadow-lg">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-auto rounded-xl object-cover"
+            >
+              <source src="/images/welcome.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </section>
+
+        {/* About Us */}
+        <section className="py-16 px-6 bg-gradient-to-b from-white to-[#f7f6f4] text-center">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6">About Us</h2>
+            <p className="text-lg leading-relaxed text-gray-700 mb-8">
+              Dub Dogs Grooming is run by Bahar — a gentle and experienced groomer with a lifelong love of animals.
+              Her calm and patient approach comes from years of caring for nervous and stray cats. Every appointment is one to one.
+              No cages. No rushing. No noisy salon. Whether it’s a quick tidy-up or a full groom, your pet gets her full attention in a quiet and familiar setting.
             </p>
-            <div className="max-w-md mx-auto rounded-xl overflow-hidden shadow-lg">
+            <div className="max-w-md mx-auto">
               <img
                 src="/images/bahar-cats.png"
-                alt="Bahar's two cats"
-                className="w-full object-contain"
+                alt="Bahar's cats"
+                className="rounded-xl shadow-md object-contain w-full"
               />
             </div>
           </div>
