@@ -2,16 +2,16 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section
-      className="relative py-32 text-center bg-[#fdfcfb] overflow-hidden"
-      style={{
-        backgroundImage: "url('/images/paw-hand.jpg')",
-        backgroundSize: "contain",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        opacity: 1,
-      }}
-    >
+    <section className="relative py-32 text-center bg-[#fdfcfb] overflow-hidden">
+      {/* Background watermark image */}
+      <div
+        className="absolute inset-0 bg-no-repeat bg-center bg-contain opacity-10 z-0"
+        style={{
+          backgroundImage: "url('/images/paw-hand.jpg')",
+        }}
+      ></div>
+
+      {/* Foreground content */}
       <div className="relative z-10">
         <h1 className="text-5xl lg:text-7xl font-extrabold tracking-tight font-serif text-gray-900">
           DUB DOGS GROOMING
