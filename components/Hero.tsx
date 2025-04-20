@@ -12,10 +12,10 @@ export default function Hero() {
 
       {/* Main content */}
       <div className="relative z-10">
-        <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 tracking-tight">
-          DUB DOGS GROOMING
+        <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 tracking-tight font-serif">
+          Dub Dogs Grooming
         </h1>
-        <p className="text-xl mt-4 text-gray-700">
+        <p className="text-xl mt-4 text-gray-700 font-sans">
           Friendly, professional mobile grooming across South Dublin
         </p>
         <div className="mt-8 flex justify-center items-center gap-4">
