@@ -23,7 +23,7 @@ export default function Hero() {
             href="#contact"
             className="px-6 py-3 border-2 border-black rounded-full bg-white text-black font-semibold shadow hover:bg-[#fff3c4] transition flex items-center gap-2"
           >
-            🐾 Book Now
+            <span className="animate-bounce">🐾</span> Book Now
           </a>
         </div>
       </div>
