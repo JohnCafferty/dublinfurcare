@@ -1,9 +1,11 @@
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-[#fdfcfb] to-[#fdf7ec] text-center py-24 overflow-hidden">
-      {/* Watermark background */}
+    <section
+      className="relative bg-gradient-to-br from-[#fdfcfb] to-[#fdf7ec] text-center py-24 overflow-hidden"
+    >
+      {/* Background Image: Larger and more visible */}
       <div
-        className="absolute inset-0 opacity-10 bg-no-repeat bg-center bg-contain z-0"
+        className="absolute inset-0 bg-no-repeat bg-center bg-cover opacity-20 z-0"
         style={{
           backgroundImage: "url('/images/paw-hand.png')",
         }}
