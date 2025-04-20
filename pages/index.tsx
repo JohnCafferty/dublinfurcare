@@ -15,12 +15,11 @@ export default function Home() {
         />
       </Head>
 
-      <main className="font-inter bg-[#fdfcfb] text-gray-900">
+      <main className="font-inter bg-[#fdfcfb] text-gray-900 scroll-smooth">
         <Header />
         <Hero />
 
-        {/* About Section */}
-        <section className="py-16 px-6 bg-gradient-to-b from-white to-[#f7f6f4]">
+        <section id="about" className="py-16 px-6 bg-gradient-to-b from-white to-[#f7f6f4]">
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">About Us</h2>
             <p className="text-lg leading-relaxed text-gray-700">
@@ -33,32 +32,15 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Meet the Team */}
-        <section className="py-16 px-6 bg-[#f7f6f4] text-center">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold mb-4">Meet the Team</h2>
-            <p className="text-lg text-gray-700 mb-6">
-              Bahar does the grooming. These two keep things running smoothly.
-            </p>
-            <div className="max-w-md mx-auto rounded-xl overflow-hidden shadow-lg">
-              <img
-                src="/images/bahar-cats.png"
-                alt="Bahar's two cats"
-                className="w-full object-contain"
-              />
-            </div>
-          </div>
-        </section>
-
-        {/* Video Section (smaller, under Meet the Team) */}
-        <section className="bg-black py-12 px-4 text-center">
-          <div className="max-w-xl mx-auto rounded-xl overflow-hidden shadow-lg">
+        {/* Embedded Video Section */}
+        <section className="py-8 px-6 bg-white flex justify-center">
+          <div className="w-full max-w-2xl shadow-lg rounded-xl overflow-hidden">
             <video
               autoPlay
               loop
               muted
               playsInline
-              className="w-full h-auto object-cover rounded-xl"
+              className="w-full h-auto object-cover"
             >
               <source src="/images/welcome.mp4" type="video/mp4" />
               Your browser does not support the video tag.
@@ -66,26 +48,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Why Choose Us */}
-        <section className="py-16 px-6 bg-white border-t border-gray-200">
-          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
-            <div>
-              <h3 className="text-xl font-semibold mb-2">No cages</h3>
-              <p className="text-gray-600">Calm and quiet, just one pet at a time</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-2">No rushing</h3>
-              <p className="text-gray-600">We go at their pace, not the clock</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-2">We come to you</h3>
-              <p className="text-gray-600">Appointments at your doorstep in South Dublin</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Services */}
-        <section className="py-16 px-6 bg-[#fdfcfb] border-t border-gray-200">
+        <section id="services" className="py-16 px-6 bg-[#fdfcfb] border-t border-gray-200">
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-2xl font-bold mb-8">Services</h2>
             <div className="grid gap-8 md:grid-cols-2 text-left">
@@ -113,26 +76,10 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Areas We Cover */}
-        <section className="py-16 px-6 bg-white border-t border-gray-200">
+        <section id="faqs" className="py-16 px-6 bg-white border-t border-gray-200">
           <div className="max-w-5xl mx-auto text-center">
-            <h2 className="text-2xl font-bold mb-4">Areas We Cover</h2>
-            <p className="text-lg text-gray-700">
-              We’re based around Stepaside and usually cover Carrickmines, Sandyford, Kilternan, Ballyogan, Leopardstown, Glencullen, Belarmine and Dundrum.
-              If you're nearby and not sure, just ask and we’ll let you know.
-            </p>
-
-            <div className="mt-10 aspect-video max-w-4xl mx-auto rounded shadow overflow-hidden">
-              <iframe
-                title="Service Area Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95218.04234886414!2d-6.338928353158761!3d53.302676451092236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867094b91f57e09%3A0x260e88cb8f85c65d!2sSouth%20Dublin!5e0!3m2!1sen!2sie!4v1713440923672!5m2!1sen!2sie"
-                width="100%"
-                height="100%"
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
+            <h2 className="text-2xl font-bold mb-4">FAQs</h2>
+            <p className="text-lg text-gray-700">This section is coming soon.</p>
           </div>
         </section>
 

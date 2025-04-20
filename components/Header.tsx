@@ -1,75 +1,33 @@
-import Link from "next/link";
 import { useState } from "react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-white border-b border-gray-200 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-        {/* Logo removed from top left — left blank */}
-        <div className="text-xl font-bold text-transparent">placeholder</div>
+    <header className="bg-white shadow-md px-6 py-4 sticky top-0 z-50">
+      <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <h1 className="text-xl font-bold font-chewy">Dub Dogs Grooming</h1>
 
-        {/* Desktop Nav */}
-        <nav className="hidden md:flex gap-8 text-sm font-medium">
-          <Link href="#services" className="hover:text-gray-700">
-            Services
-          </Link>
-          <Link href="#our-story" className="hover:text-gray-700">
-            Our Story
-          </Link>
-          <Link href="#faqs" className="hover:text-gray-700">
-            FAQs
-          </Link>
-          <Link href="#gallery" className="hover:text-gray-700">
-            Gallery
-          </Link>
-          <Link href="#contact" className="hover:text-gray-700">
-            Contact
-          </Link>
+        <nav className="hidden md:flex space-x-6 font-medium">
+          <a href="#services" className="hover:text-primary transition">Services</a>
+          <a href="#about" className="hover:text-primary transition">Our Story</a>
+          <a href="#faqs" className="hover:text-primary transition">FAQs</a>
+          <a href="#contact" className="hover:text-primary transition">Contact</a>
         </nav>
 
-        {/* Mobile Burger */}
-        <div className="md:hidden">
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="text-gray-700 focus:outline-none"
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </button>
-        </div>
+        <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
+          <svg className="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
       </div>
 
-      {/* Mobile Dropdown */}
       {isOpen && (
-        <div className="md:hidden px-4 pb-4 space-y-2 text-sm font-medium">
-          <Link href="#services" className="block hover:text-gray-700">
-            Services
-          </Link>
-          <Link href="#our-story" className="block hover:text-gray-700">
-            Our Story
-          </Link>
-          <Link href="#faqs" className="block hover:text-gray-700">
-            FAQs
-          </Link>
-          <Link href="#gallery" className="block hover:text-gray-700">
-            Gallery
-          </Link>
-          <Link href="#contact" className="block hover:text-gray-700">
-            Contact
-          </Link>
+        <div className="md:hidden mt-4 space-y-4 px-4 text-center">
+          <a href="#services" className="block">Services</a>
+          <a href="#about" className="block">Our Story</a>
+          <a href="#faqs" className="block">FAQs</a>
+          <a href="#contact" className="block">Contact</a>
         </div>
       )}
     </header>
