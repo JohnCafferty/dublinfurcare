@@ -6,7 +6,7 @@ export default function Hero() {
     >
       {/* Watermark Background */}
       <div
-        className="absolute inset-0 bg-center bg-cover opacity-10 z-0"
+        className="absolute inset-0 bg-center bg-cover opacity-30 mix-blend-multiply z-0"
         style={{ backgroundImage: "url('/images/paw-hand.png')" }}
       />
 
