@@ -13,20 +13,11 @@ export default function Hero() {
       {/* Main content */}
       <div className="relative z-10">
         <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 tracking-tight">
-          Dub Dogs Grooming
+          Dublin Fur Care
         </h1>
         <p className="text-xl mt-4 text-gray-700">
           Friendly, professional mobile grooming across South Dublin
         </p>
         <div className="mt-8 flex justify-center items-center gap-4">
           <a
-            href="#contact"
-            className="px-6 py-3 border-2 border-black rounded-full bg-white text-black font-semibold shadow hover:bg-[#fff3c4] transition flex items-center gap-2"
-          >
-            <span className="animate-bounce">🐾</span> Book Now
-          </a>
-        </div>
-      </div>
-    </section>
-  );
-}
+            href="#
