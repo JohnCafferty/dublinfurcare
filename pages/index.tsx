@@ -23,10 +23,15 @@ export default function Home() {
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">About Us</h2>
             <p className="text-lg leading-relaxed text-gray-700">
-              Dublin Fur Care is run by Bahar. She’s a gentle and experienced groomer with a lifelong love of animals.
+              Dub Dogs is run by Bahar. She is a gentle and experienced groomer with a lifelong love of animals.
               She has a calm and patient approach that comes from years of caring for nervous and stray cats.
+
               <br /><br />
-              Every appointment is one to one. No cages. No rushing. No noisy salon.
+              Bahar holds both national and international certification in pet grooming,
+              and brings professional care to every appointment.
+
+              <br /><br />
+              Every session is one to one. There are no cages. There is no rushing. There is no noisy salon.
               Whether it’s a quick tidy-up or a full groom, your pet gets her full attention in a quiet and familiar setting.
             </p>
           </div>
