@@ -76,13 +76,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="faqs" className="py-16 px-6 bg-white border-t border-gray-200">
-          <div className="max-w-5xl mx-auto text-center">
-            <h2 className="text-2xl font-bold mb-4">FAQs</h2>
-            <p className="text-lg text-gray-700">This section is coming soon.</p>
-          </div>
-        </section>
-
         <Gallery />
         <Contact />
         <Footer />
