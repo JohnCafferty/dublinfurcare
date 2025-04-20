@@ -7,10 +7,9 @@ export default function Header() {
   return (
     <header className="bg-white shadow-md px-6 py-4 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        {/* Logo text */}
-        <span className="text-lg font-semibold text-gray-800">Dublin Fur Care</span>
+        <div /> {/* Intentionally blank top-left */}
 
-        {/* Desktop nav */}
+        {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6 font-medium text-gray-800">
           <Link href="/services" className="hover:text-black transition">Services</Link>
           <Link href="/our-story" className="hover:text-black transition">Our Story</Link>
@@ -18,13 +17,13 @@ export default function Header() {
           <a href="#contact" className="hover:text-black transition">Contact</a>
         </nav>
 
-        {/* Mobile menu toggle */}
+        {/* Mobile Toggle */}
         <button className="md:hidden text-2xl" onClick={() => setIsOpen(!isOpen)}>
           ☰
         </button>
       </div>
 
-      {/* Mobile dropdown menu */}
+      {/* Mobile Dropdown */}
       {isOpen && (
         <div className="md:hidden mt-2 space-y-2 px-4 text-center text-gray-800 font-medium">
           <Link href="/services" className="block">Services</Link>
