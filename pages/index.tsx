@@ -9,10 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600&display=swap"
-          rel="stylesheet"
-        />
+        <title>Dublin Fur Care</title>
       </Head>
 
       <main className="font-inter bg-[#fdfcfb] text-gray-900 scroll-smooth">
@@ -23,7 +20,7 @@ export default function Home() {
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">About Us</h2>
             <p className="text-lg leading-relaxed text-gray-700">
-              Dub Dogs Grooming is run by Bahar. She is a gentle and experienced groomer with a lifelong love of animals.
+              Dublin Fur Care is run by Bahar. She is a gentle and experienced groomer with a lifelong love of animals.
               She has a calm and patient approach that comes from years of caring for nervous and stray cats.
 
               <br /><br />
