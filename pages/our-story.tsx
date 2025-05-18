@@ -26,7 +26,7 @@ export default function OurStory() {
           </p>
   
           <p className="text-lg leading-relaxed mt-6">
-            Dublin Fur Care is built on that same approach. Grooming should be calm. Not noisy. Not rushed. One animal at a time, looked after properly.
+            Dublin Pet Grooming is built on that same approach. Grooming should be calm. Not noisy. Not rushed. One animal at a time, looked after properly.
           </p>
   
           <p className="text-lg leading-relaxed mt-6">

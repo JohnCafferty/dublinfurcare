@@ -29,6 +29,8 @@ export default function Header() {
           <Link href="/services" className="block">Services</Link>
           <Link href="/our-story" className="block">Our Story</Link>
           <Link href="/faqs" className="block">FAQs</Link>
+          <Link href="/booking" className="hover:text-black transition">Book Now</Link>
+
           <a href="#contact" className="block">Contact</a>
         </div>
       )}

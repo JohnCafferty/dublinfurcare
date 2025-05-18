@@ -21,7 +21,7 @@ export default function Home() {
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">About Us</h2>
             <p className="text-lg leading-relaxed text-gray-700">
-              Dublin Fur Care is run by Bahar. She is a gentle and experienced groomer with a lifelong love of animals.
+              Dublin Pet Grooming is run by Bahar. She is a gentle and experienced groomer with a lifelong love of animals.
               She has a calm and patient approach that comes from years of caring for nervous and stray cats.
               <br /><br />
               Bahar holds both national and international certification in pet grooming,
