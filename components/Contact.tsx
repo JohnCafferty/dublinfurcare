@@ -12,19 +12,19 @@ export default function Contact() {
           <br />
           Instagram:{" "}
           <a
-            href="https://www.instagram.com/dublinfurcare"
+            href="https://www.instagram.com/Dublinpetgrooming "
             target="_blank"
             className="text-black underline"
           >
-            @dublinfurcare
+            @@Dublinpetgrooming 
           </a>
           <br />
           Email:{" "}
           <a
-            href="mailto:dublinfurcare@gmail.com"
+            href="mailto:@Dublinpetgrooming@gmail.com"
             className="text-black underline"
           >
-            dublinfurcare@gmail.com
+            Dublinpetgrooming@gmail.com
           </a>
         </p>
       </section>
