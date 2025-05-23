@@ -1,6 +1,13 @@
 export default function Hero() {
   return (
     <section className="text-center py-16 px-4 bg-white">
+      <div className="flex justify-center mb-6">
+        <img
+          src="/logo.png"
+          alt="Dublin Pet Grooming Logo"
+          className="h-24 w-auto"
+        />
+      </div>
       <h1 className="text-5xl font-bold text-gray-900">Dublin Pet Grooming</h1>
       <p className="mt-4 text-xl text-gray-700">
         Friendly, professional grooming in South Dublin
