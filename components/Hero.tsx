@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="text-center py-16 px-4 bg-white">
       <h1 className="text-5xl font-bold text-gray-900">Dublin Pet Grooming</h1>
       <p className="mt-4 text-xl text-gray-700">
-        Friendly, professional mobile grooming across South Dublin
+        Friendly, professional grooming in South Dublin
       </p>
       <div className="mt-6">
         <a
