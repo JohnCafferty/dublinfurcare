@@ -10,14 +10,14 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         
         {/* Logo on top-left */}
-        <div className="flex items-center">
-          <Link href="/">
+        <div className="flex items-center border-none">
+          <Link href="/" className="border-none">
             <Image
               src="/images/logo.png"
               alt="Dublin Pet Grooming Logo"
-              width={100}
-              height={100}
-              className="w-auto h-20 object-contain"
+              width={120}
+              height={120}
+              className="w-auto h-24 object-contain border-none"
             />
           </Link>
         </div>
@@ -56,7 +56,6 @@ export default function Header() {
           <Link href="/faqs" className="block">FAQs</Link>
           <Link href="/booking" className="block">Book Now</Link>
           <a href="#contact" className="block">Contact</a>
-          
         </nav>
       )}
     </header>
