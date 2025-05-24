@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,7 +8,18 @@ export default function Header() {
   return (
     <header className="bg-white shadow-md px-6 py-4 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div /> {/* Intentionally blank top-left */}
+        {/* Logo on the top-left */}
+        <Link href="/">
+          <a className="flex items-center">
+            <Image
+              src="/images/logo.png" // make sure your logo file is in public/images/
+              alt="Dublin Pet Grooming Logo"
+              width={60}
+              height={60}
+              priority
+            />
+          </a>
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6 font-medium text-gray-800">
@@ -30,7 +42,6 @@ export default function Header() {
           <Link href="/our-story" className="block">Our Story</Link>
           <Link href="/faqs" className="block">FAQs</Link>
           <Link href="/booking" className="hover:text-black transition">Book Now</Link>
-
           <a href="#contact" className="block">Contact</a>
         </div>
       )}
