@@ -8,7 +8,7 @@ export default function BookingOptions() {
     <Layout>
       <main className="bg-[#fdfcfb] text-gray-900 px-6 py-24 min-h-screen text-center flex flex-col items-center">
         <h1 className="text-3xl font-bold mb-6">Booking Options</h1>
-        <p className="text-lg mb-8">Choose the easiest way to book your pet's grooming appointment:</p>
+        <p className="text-lg mb-8"></p>
 
         {/* Dog Image */}
         <div className="mb-10">
