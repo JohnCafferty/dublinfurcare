@@ -11,10 +11,12 @@ export default function BookingPage() {
           method="POST"
           className="space-y-6"
         >
+          {/* Formsubmit settings */}
           <input type="hidden" name="_subject" value="New Booking Request" />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_next" value="https://dublinpetgrooming.ie/thank-you" />
 
+          {/* Name */}
           <div>
             <label className="block text-sm font-medium mb-1">Name</label>
             <input
@@ -25,6 +27,7 @@ export default function BookingPage() {
             />
           </div>
 
+          {/* Phone */}
           <div>
             <label className="block text-sm font-medium mb-1">Phone Number</label>
             <input
@@ -35,6 +38,7 @@ export default function BookingPage() {
             />
           </div>
 
+          {/* Email */}
           <div>
             <label className="block text-sm font-medium mb-1">Email</label>
             <input
@@ -45,6 +49,7 @@ export default function BookingPage() {
             />
           </div>
 
+          {/* Preferred Date & Time */}
           <div>
             <label className="block text-sm font-medium mb-1">Preferred Date & Time</label>
             <input
@@ -55,6 +60,7 @@ export default function BookingPage() {
             />
           </div>
 
+          {/* Location */}
           <div>
             <label className="block text-sm font-medium mb-1">Location (Eircode or Area)</label>
             <input
@@ -65,6 +71,7 @@ export default function BookingPage() {
             />
           </div>
 
+          {/* Extra Notes */}
           <div>
             <label className="block text-sm font-medium mb-1">Extra Notes</label>
             <textarea
@@ -74,6 +81,7 @@ export default function BookingPage() {
             ></textarea>
           </div>
 
+          {/* Submit */}
           <button
             type="submit"
             className="w-full bg-black text-white py-3 rounded font-semibold hover:bg-gray-800 transition"
