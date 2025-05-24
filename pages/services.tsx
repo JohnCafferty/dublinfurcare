@@ -33,6 +33,16 @@ export default function ServicesPage() {
               <p className="text-gray-700">A short, positive first grooming experience.</p>
             </div>
           </div>
+
+          {/* Back to Home Button */}
+          <div className="mt-12">
+            <a
+              href="/"
+              className="inline-block bg-white border border-black text-black px-5 py-2 rounded hover:bg-gray-100 transition"
+            >
+              ⬅ Back to Home
+            </a>
+          </div>
         </div>
       </main>
     </Layout>

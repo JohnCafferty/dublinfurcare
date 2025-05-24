@@ -8,7 +8,6 @@ export default function BookingOptions() {
     <Layout>
       <main className="bg-[#fdfcfb] text-gray-900 px-6 py-24 min-h-screen text-center flex flex-col items-center">
         <h1 className="text-3xl font-bold mb-6">Booking Options</h1>
-        <p className="text-lg mb-8"></p>
 
         {/* Dog Image */}
         <div className="mb-10">
@@ -37,6 +36,16 @@ export default function BookingOptions() {
             className="bg-green-500 text-white px-6 py-3 rounded font-semibold hover:bg-green-600 transition"
           >
             Book via WhatsApp
+          </a>
+        </div>
+
+        {/* Back to Home Button */}
+        <div className="mt-12">
+          <a
+            href="/"
+            className="inline-block bg-white border border-black text-black px-5 py-2 rounded hover:bg-gray-100 transition"
+          >
+            ⬅ Back to Home
           </a>
         </div>
       </main>
