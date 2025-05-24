@@ -30,7 +30,7 @@ export default function FAQs() {
               <h3 className="font-semibold text-lg mb-1">Can I stay with my pet during the groom?</h3>
               <p className="text-gray-700">
                 Most pets are actually calmer when their owners aren’t nearby. For safety and to help them settle,
-                we usually ask owners to wait just outside — but we’ll always do what’s best for your pet.
+                we usually ask owners to wait just outside but we’ll always do what’s best for your pet.
               </p>
             </div>
 
@@ -46,7 +46,7 @@ export default function FAQs() {
               <h3 className="font-semibold text-lg mb-1">How long does it take to groom my dog?</h3>
               <p className="text-gray-700">
                 A full groom usually takes between 1–2 hours depending on the size, coat condition, and temperament.
-                We don’t rush — we always work at your pet’s pace.
+                We don’t rush and we always work at your pet’s pace.
               </p>
             </div>
 

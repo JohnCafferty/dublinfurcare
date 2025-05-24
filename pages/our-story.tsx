@@ -31,7 +31,7 @@ export default function OurStory() {
           </p>
 
           <p className="text-lg leading-relaxed mt-6">
-            We come to you. We go at their pace. We take the time to do it right.
+            We come to you. We go at their pace and we take the time to do it right.
           </p>
 
           {/* Back to Home Button */}

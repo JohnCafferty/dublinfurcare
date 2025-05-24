@@ -16,7 +16,7 @@ export default function Contact() {
           target="_blank"
           className="text-black underline"
         >
-          @Dublinpetgrooming
+          @dublinpetgrooming
         </a>
         <br />
         Email:{" "}
@@ -24,7 +24,7 @@ export default function Contact() {
           href="mailto:Dublinpetgrooming@gmail.com"
           className="text-black underline"
         >
-          Dublinpetgrooming@gmail.com
+          dublinpetgrooming@gmail.com
         </a>
       </p>
     </section>
