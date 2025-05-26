@@ -16,7 +16,10 @@ export default function Hero() {
           Dublin Pet Grooming
         </h1>
         <p className="text-xl mt-4 text-gray-700">
-          Friendly, professional mobile grooming across South Dublin
+          Gentle, one-to-one, cage-free pet grooming in <strong>South Dublin, Ireland</strong>
+        </p>
+        <p className="text-md mt-2 text-gray-600">
+          Serving Stepaside, Sandyford, Leopardstown, Dundrum, and nearby areas
         </p>
         <div className="mt-8 flex justify-center items-center gap-4">
           <a

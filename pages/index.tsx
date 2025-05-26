@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Dublin Pet Grooming | Gentle, Cage-Free Dog Grooming in South Dublin</title>
+        <title>Dublin Pet Grooming | Gentle, Cage-Free Dog & Cat Grooming in South Dublin, Ireland</title>
         <meta
           name="description"
-          content="Caring, one-to-one dog grooming in South Dublin. No cages, no rushing—just gentle grooming in a quiet, familiar environment your pet will love."
+          content="Professional, one-to-one pet grooming in South Dublin, Ireland. Gentle, cage-free grooms for dogs and cats. Serving Stepaside, Sandyford, Dundrum & nearby areas."
         />
       </Head>
 
