@@ -8,7 +8,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Dublin Pet Grooming</title>
+        <title>Dublin Pet Grooming | Gentle, Cage-Free Dog Grooming in South Dublin</title>
+        <meta
+          name="description"
+          content="Caring, one-to-one dog grooming in South Dublin. No cages, no rushing—just gentle grooming in a quiet, familiar environment your pet will love."
+        />
       </Head>
 
       <Layout>
