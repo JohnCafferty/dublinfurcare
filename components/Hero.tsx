@@ -24,7 +24,7 @@ export default function Hero() {
         <div className="mt-8 flex justify-center items-center gap-4">
           <a
             href="#contact"
-            className="px-6 py-3 border-2 border-black rounded-full bg-white text-black font-semibold shadow hover:bg-[#fff3c4] transition flex items-center gap-2"
+            className="px-6 py-3 border-2 border-transparent rounded-full bg-[#FDB813] text-white font-semibold shadow hover:bg-[#d99e0e] transition flex items-center gap-2"
           >
             <span className="animate-bounce">🐾</span> Book Now
           </a>
