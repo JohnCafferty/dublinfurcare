@@ -4,7 +4,7 @@ export default function OurStory() {
   return (
     <Layout>
       <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden">
-        {/* Background Image - swaps between cropped and full */}
+        {/* Background Image */}
         <div
           className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0"
           style={{
@@ -37,7 +37,7 @@ export default function OurStory() {
           {/* Back to Home Button */}
           <a
             href="/"
-            className="inline-block mt-10 px-6 py-3 rounded-full bg-[#FDB813] text-black font-semibold shadow hover:bg-[#d99e0e] transition"
+            className="inline-block mt-10 px-6 py-3 rounded-full bg-[#FDB813] text-white font-semibold shadow hover:bg-[#d99e0e] transition"
           >
             ← Back to Home
           </a>

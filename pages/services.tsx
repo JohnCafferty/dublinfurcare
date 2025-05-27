@@ -48,7 +48,7 @@ export default function ServicesPage() {
           <div className="mt-12">
             <a
               href="/"
-              className="inline-block px-6 py-3 rounded-full bg-[#FDB813] text-black font-semibold shadow hover:bg-[#d99e0e] transition"
+              className="inline-block px-6 py-3 rounded-full bg-[#FDB813] text-white font-semibold shadow hover:bg-[#d99e0e] transition"
             >
               ← Back to Home
             </a>
