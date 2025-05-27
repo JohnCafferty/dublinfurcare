@@ -5,8 +5,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
-      
-      {/* WhatsApp Button */}
+
+      {/* WhatsApp Floating Button */}
       <a
         href="https://wa.me/353871213112"
         target="_blank"
@@ -25,8 +25,16 @@ function MyApp({ Component, pageProps }: AppProps) {
         </svg>
         <span className="hidden sm:inline">WhatsApp</span>
       </a>
-    </>
-  );
-}
 
-export default MyApp;
+      {/* Instagram Floating Button */}
+      <a
+        href="https://www.instagram.com/dublinpetgrooming"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-20 right-6 z-50 bg-[#E1306C] hover:bg-[#c92b60] text-white px-4 py-3 rounded-full shadow-lg flex items-center gap-2 transition duration-200"
+        aria-label="Instagram"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          className="w
