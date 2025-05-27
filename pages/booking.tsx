@@ -24,7 +24,7 @@ export default function BookingOptions() {
         <div className="flex flex-col md:flex-row justify-center items-center gap-4">
           <a
             href="mailto:dublinpetgrooming@gmail.com"
-            className="bg-black text-white px-6 py-3 rounded font-semibold hover:bg-gray-800 transition"
+            className="bg-black text-white px-6 py-3 rounded-full font-semibold shadow hover:bg-gray-800 transition"
           >
             Book via Email
           </a>
@@ -33,7 +33,7 @@ export default function BookingOptions() {
             href="https://wa.me/353871213112"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-green-500 text-white px-6 py-3 rounded font-semibold hover:bg-green-600 transition"
+            className="bg-green-500 text-white px-6 py-3 rounded-full font-semibold shadow hover:bg-green-600 transition"
           >
             Book via WhatsApp
           </a>
