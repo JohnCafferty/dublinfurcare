@@ -10,27 +10,37 @@ export default function ServicesPage() {
           <div className="grid gap-8 md:grid-cols-2 text-left">
             <div>
               <h3 className="text-lg font-semibold mb-1">Full Groom</h3>
-              <p className="text-gray-700">Includes wash, dry, brush, full body trim, ear cleaning and nail clipping.</p>
+              <p className="text-gray-700">
+                Includes wash, dry, brush, full body trim, ear cleaning and nail clipping.
+              </p>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold mb-1">Bath & Brush</h3>
-              <p className="text-gray-700">Ideal for maintenance between full grooms.</p>
+              <p className="text-gray-700">
+                Ideal for maintenance between full grooms.
+              </p>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold mb-1">Nail Trim</h3>
-              <p className="text-gray-700">Quick and stress-free nail clipping.</p>
+              <p className="text-gray-700">
+                Quick and stress-free nail clipping.
+              </p>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold mb-1">Cat Groom</h3>
-              <p className="text-gray-700">Gentle handling with a calm and quiet approach.</p>
+              <p className="text-gray-700">
+                Gentle handling with a calm and quiet approach.
+              </p>
             </div>
 
             <div>
               <h3 className="text-lg font-semibold mb-1">Puppy Intro</h3>
-              <p className="text-gray-700">A short, positive first grooming experience.</p>
+              <p className="text-gray-700">
+                A short, positive first grooming experience.
+              </p>
             </div>
           </div>
 
@@ -38,9 +48,9 @@ export default function ServicesPage() {
           <div className="mt-12">
             <a
               href="/"
-              className="inline-block bg-white border border-black text-black px-5 py-2 rounded hover:bg-gray-100 transition"
+              className="inline-block px-6 py-3 rounded-full bg-[#FDB813] text-black font-semibold shadow hover:bg-[#d99e0e] transition"
             >
-              ⬅ Back to Home
+              ← Back to Home
             </a>
           </div>
         </div>
