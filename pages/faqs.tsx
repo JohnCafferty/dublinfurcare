@@ -4,8 +4,23 @@ import Link from "next/link";
 export default function FAQs() {
   return (
     <Layout>
-      <section className="min-h-screen bg-[#fdfcfb] px-6 py-16 text-gray-900">
-        <div className="max-w-4xl mx-auto">
+      <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden text-gray-900">
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0"
+          style={{
+            backgroundImage: "url('/images/cropped.jpg')",
+          }}
+        />
+        <div
+          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0 hidden md:block"
+          style={{
+            backgroundImage: "url('/images/bahar-cats1.png')",
+          }}
+        />
+
+        {/* Content */}
+        <div className="relative max-w-4xl mx-auto z-10">
           <h1 className="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h1>
 
           <div className="space-y-10">
@@ -59,6 +74,7 @@ export default function FAQs() {
             </div>
           </div>
 
+          {/* Back to Home Button */}
           <div className="mt-12 text-center">
             <Link
               href="/"
@@ -68,7 +84,7 @@ export default function FAQs() {
             </Link>
           </div>
         </div>
-      </section>
+      </main>
     </Layout>
   );
 }
