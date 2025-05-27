@@ -37,7 +37,7 @@ export default function OurStory() {
           {/* Back to Home Button */}
           <a
             href="/"
-            className="inline-block mt-10 px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition"
+            className="inline-block mt-10 px-6 py-3 rounded-full bg-[#FDB813] text-black font-semibold shadow hover:bg-[#d99e0e] transition"
           >
             ← Back to Home
           </a>

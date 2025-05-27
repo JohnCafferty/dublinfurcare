@@ -1,9 +1,12 @@
 import { useState } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
+  const isHome = router.pathname === "/";
 
   return (
     <header className="bg-white shadow-md px-6 py-4 sticky top-0 z-50">
@@ -28,7 +31,12 @@ export default function Header() {
           <Link href="/our-story" className="hover:text-black transition">Our Story</Link>
           <Link href="/faqs" className="hover:text-black transition">FAQs</Link>
           <Link href="/booking" className="hover:text-black transition">Book Now</Link>
-          <a href="#contact" className="hover:text-black transition">Contact</a>
+          <a
+            href={isHome ? "#contact" : "/#contact"}
+            className="hover:text-black transition"
+          >
+            Contact
+          </a>
         </nav>
 
         {/* Mobile Hamburger Menu */}
@@ -55,7 +63,12 @@ export default function Header() {
           <Link href="/our-story" className="block">Our Story</Link>
           <Link href="/faqs" className="block">FAQs</Link>
           <Link href="/booking" className="block">Book Now</Link>
-          <a href="#contact" className="block">Contact</a>
+          <a
+            href={isHome ? "#contact" : "/#contact"}
+            className="block"
+          >
+            Contact
+          </a>
         </nav>
       )}
     </header>

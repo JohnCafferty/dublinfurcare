@@ -60,7 +60,10 @@ export default function FAQs() {
           </div>
 
           <div className="mt-12 text-center">
-            <Link href="/" className="inline-block bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition">
+            <Link
+              href="/"
+              className="inline-block px-6 py-3 rounded-full bg-[#FDB813] text-black font-semibold shadow hover:bg-[#d99e0e] transition"
+            >
               ← Back to Home
             </Link>
           </div>

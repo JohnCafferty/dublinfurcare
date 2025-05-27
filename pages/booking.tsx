@@ -43,9 +43,9 @@ export default function BookingOptions() {
         <div className="mt-12">
           <a
             href="/"
-            className="inline-block bg-white border border-black text-black px-5 py-2 rounded hover:bg-gray-100 transition"
+            className="inline-block px-6 py-3 rounded-full bg-[#FDB813] text-black font-semibold shadow hover:bg-[#d99e0e] transition"
           >
-            ⬅ Back to Home
+            ← Back to Home
           </a>
         </div>
       </main>
