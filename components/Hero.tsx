@@ -29,7 +29,7 @@ export default function Hero() {
             href="#contact"
             className="px-6 py-3 border-2 border-black rounded-full bg-[#FDB813] text-white font-semibold shadow hover:bg-[#d99e0e] transition transform hover:scale-105 flex items-center gap-2"
           >
-            <span role="img" aria-label="paw">🐾</span> Book Now
+            <span className="animate-bounce" role="img" aria-label="paw">🐾</span> Book Now
           </a>
         </div>
       </div>
