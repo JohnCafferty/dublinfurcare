@@ -3,8 +3,23 @@ import Layout from "../components/Layout";
 export default function ServicesPage() {
   return (
     <Layout>
-      <main className="bg-[#fdfcfb] text-gray-900 px-6 py-16 min-h-screen">
-        <div className="max-w-4xl mx-auto text-center">
+      <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden text-gray-900">
+        {/* Faded Background Image */}
+        <div
+          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0"
+          style={{
+            backgroundImage: "url('/images/cropped.jpg')",
+          }}
+        />
+        <div
+          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0 hidden md:block"
+          style={{
+            backgroundImage: "url('/images/bahar-cats1.png')",
+          }}
+        />
+
+        {/* Main Content */}
+        <div className="relative max-w-4xl mx-auto text-center z-10">
           <h1 className="text-3xl font-bold mb-8">Our Services</h1>
 
           <div className="grid gap-8 md:grid-cols-2 text-left">
