@@ -3,6 +3,7 @@ export default function Hero() {
     <section
       className="relative bg-gradient-to-br from-[#fdfcfb] to-[#fdf7ec] text-center py-24 overflow-hidden"
       id="home"
+      data-aos="fade-up"
     >
       {/* Watermark Background */}
       <div
@@ -22,13 +23,13 @@ export default function Hero() {
           Serving Stepaside, Sandyford, Leopardstown, Dundrum, and nearby areas
         </p>
 
-        {/* Animated Button */}
+        {/* Animated CTA Button */}
         <div className="mt-8 flex justify-center items-center gap-4">
           <a
             href="#contact"
-            className="px-6 py-3 border-2 border-black rounded-full bg-[#FDB813] text-white font-semibold shadow hover:bg-[#d99e0e] transition transform hover:scale-105 animate-bounce-slow flex items-center gap-2"
+            className="px-6 py-3 border-2 border-black rounded-full bg-[#FDB813] text-white font-semibold shadow hover:bg-[#d99e0e] transition transform hover:scale-105 flex items-center gap-2"
           >
-            <span className="animate-bounce">🐾</span> Book Now
+            <span role="img" aria-label="paw">🐾</span> Book Now
           </a>
         </div>
       </div>
