@@ -5,16 +5,16 @@ import Link from "next/link";
 export default function Gallery() {
   const gallery = [
     {
-      img: "/images/cropped.jpg",
-      caption: "Bahar’s cat, groomed and ready",
+      img: "/images/wash.jpeg",
+      caption: "Dog getting a gentle full-body wash",
     },
     {
-      img: "/images/scissors.jpg",
-      caption: "Full grooming session in progress",
+      img: "/images/blowdry.jpeg",
+      caption: "Blow-drying with care and fluff",
     },
     {
-      img: "/images/scissors2.jpg",
-      caption: "Tidy trim for a happy pup",
+      img: "/images/nails.jpeg",
+      caption: "Nail trim — safe, quick, and stress-free",
     },
   ];
 
@@ -29,11 +29,12 @@ export default function Gallery() {
           <div key={index} className="bg-white rounded-xl overflow-hidden shadow">
             <Image
               src={item.img}
-              alt={`Gallery image ${index + 1}`}
+              alt={item.caption}
               width={500}
               height={500}
               className="w-full h-auto object-cover"
             />
+            <p className="text-gray-700 text-sm mt-2 px-4 pb-4">{item.caption}</p>
           </div>
         ))}
       </div>
