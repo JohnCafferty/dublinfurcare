@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const gallery = [
   {
-    img: "/images/cat-window.jpg",
+    img: "/images/wash-new.jpeg",
   },
   {
-    img: "/images/scissors.jpg",
+    img: "/images/blowdry-new.jpeg",
   },
   {
-    img: "/images/scissors2.jpg",
+    img: "/images/nails-new.jpeg",
   },
 ];
 
