@@ -32,6 +32,21 @@ export default function Hero() {
             <span className="animate-bounce" role="img" aria-label="paw">🐾</span> Book Now
           </a>
         </div>
+
+        {/* Updated Video Section */}
+        <div className="mt-12 flex justify-center">
+          <video
+            className="rounded-2xl shadow-lg max-w-full w-[90%] md:w-[720px]"
+            controls
+            autoPlay
+            muted
+            loop
+            playsInline
+          >
+            <source src="/images/dublin-pet-v2.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
     </section>
   );

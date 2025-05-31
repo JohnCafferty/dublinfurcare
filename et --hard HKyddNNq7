@@ -1,0 +1,884 @@
+[33mcommit 46154acfd37de07e67275d618a03baa104644ff0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 31 13:27:43 2025 +0100
+
+    Replaced homepage video with dublin-Pet.mp4
+
+[33mcommit 052fbb2ba720db8067e058653e4ec8c0df8642d4[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 31 13:19:29 2025 +0100
+
+    Replaced homepage video with dublin-Pet.mp4
+
+[33mcommit 5d4ebec78a4046d093082065a1eb0fc97770876c[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 31 13:15:49 2025 +0100
+
+    Add video to Hero section
+
+[33mcommit 8bb7326739c8e30603553281979a80f359578e86[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 16:58:17 2025 +0100
+
+    Update Hero section with bounce animation and AOS fade-up
+
+[33mcommit 195215aee40b37681cb3c63f32af01a747bb8eda[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 16:49:42 2025 +0100
+
+    Added AOS animation and updated floating buttons
+
+[33mcommit 321d1c17230fec43d024668de03e672f86fd1aad[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 16:20:24 2025 +0100
+
+    Update: animations and tsconfig fix for AOS
+
+[33mcommit 2114cc1df5b9573c9b3e2c86111b72c90ea2444a[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 16:09:53 2025 +0100
+
+    Update Hero section with AOS fade-in and button animation
+
+[33mcommit 5447b3043453d3e250cbf694a797d3fed8295d01[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 15:37:44 2025 +0100
+
+    Update Services page with faded background image and styling
+
+[33mcommit db473f1839349c3bbd01a43be44389c85e63547d[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 15:32:41 2025 +0100
+
+    Add faded background image to FAQs page
+
+[33mcommit 1c870de3489dc41cfe477e778b16a5fb80fa290a[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 15:10:17 2025 +0100
+
+    Fix JSX fragment and add floating buttons
+
+[33mcommit 8b828c3b63d5540ea4d5cffa683cbb77696c89fc[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 14:59:17 2025 +0100
+
+    Fix tsconfig and prepare for deployment
+
+[33mcommit 0456f27918fe8c54a70d2da644259387a8797ba6[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 14:55:05 2025 +0100
+
+    Update hero button style and bounce animation
+
+[33mcommit 965f5c6337e8f5374b4392373576ea2aa39eecf5[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 14:04:15 2025 +0100
+
+    Update Hero section button to yellow scheme
+
+[33mcommit 70896d2d4e45f38b5ba77f1702dbc2f5e336b0e6[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 12:41:22 2025 +0100
+
+    Add Privacy Policy page and footer link
+
+[33mcommit f1c3d4ea6405a6d4e973c87c0bce0b8a5ef42f77[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 11:08:13 2025 +0100
+
+    Update Back to Home buttons to use white text across all pages
+
+[33mcommit f73cb21eb2fdb53ff3b88ef740329dbdbedea6d9[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 09:44:39 2025 +0100
+
+    Update booking page: rounded buttons for consistent style
+
+[33mcommit a151805611b89dd1164072525c96981a15f9ae15[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 09:34:28 2025 +0100
+
+    Update all pages with branded Back to Home button and fix Contact link in header
+
+[33mcommit 0c5a8f7058b643c1d6f3813d3703bed9e62af561[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Tue May 27 09:23:28 2025 +0100
+
+    Update Services page with branded back button
+
+[33mcommit 7310fd6f90265778d9eb61733639c4b1a33c0cea[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Mon May 26 17:41:31 2025 +0100
+
+    Add favicon for Google search result icon
+
+[33mcommit 091a13ba3d2671382c1626029587df5d427ea053[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Mon May 26 17:24:00 2025 +0100
+
+    Update homepage SEO title and description
+
+[33mcommit 28ed31d801046003b63562b544fc8cc63c42e8c5[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Mon May 26 10:17:05 2025 +0100
+
+    Add favicon and structured logo using android-chrome-192x192.png
+
+[33mcommit d7952906b53872a6e2f8d0adf9bc654feb11cec7[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Mon May 26 09:40:52 2025 +0100
+
+    Trigger redeploy for sitemap.xml
+
+[33mcommit 652c411d66122b26fbda3f82e66363e006334bac[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Mon May 26 09:36:00 2025 +0100
+
+    Add sitemap.xml for SEO
+
+[33mcommit be911852b3905532293937480316203cac61c6ea[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Mon May 26 09:33:10 2025 +0100
+
+    Update index meta title and description for SEO
+
+[33mcommit f18e1c65b1f2b8d7c1d01dd80ffa71a155055bee[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 21:39:03 2025 +0100
+
+    Add back to home button to Services and Booking pages
+
+[33mcommit 33a78a8ba2361b7ba32cdfc2e4435033dad2b126[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 21:35:10 2025 +0100
+
+    Remove subtitle text from Booking page
+
+[33mcommit 02eb1f147d01ea7d4f96bcbb00f1b9050d042222[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 21:31:53 2025 +0100
+
+    Add dog image to booking page
+
+[33mcommit b35717f3332ceb4f2772f3f685c0615675ae66af[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 18:22:09 2025 +0100
+
+    Update services page text
+
+[33mcommit 9b1de98438b20ca3ae8a82d79d7e0d5077ce4ec6[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 18:15:28 2025 +0100
+
+    Wrap services page in Layout to show header and logo
+
+[33mcommit 9da1cf566887cae0cf93d0a35dfa15e64bd0e485[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 15:45:01 2025 +0100
+
+    Wrap booking page in Layout to show header and logo
+
+[33mcommit 3decc0b52e87959963016d78302a466bef151b31[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 15:43:48 2025 +0100
+
+    Wrap FAQ page in Layout for shared logo and header
+
+[33mcommit eddcc6bdb62d9fd209898461cadcbf5b9c2f45d9[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 15:41:48 2025 +0100
+
+    Add Layout to Our Story page for shared header
+
+[33mcommit 0a84a63c6ce5da14da6c66a024d58eb1286ee6d2[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 15:29:39 2025 +0100
+
+    Fix Layout.tsx children type error for Vercel build
+
+[33mcommit 8c865224efe5f9fb2ff47d4ec0ebc6cfc8ce5e97[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 14:49:52 2025 +0100
+
+    Fix index.tsx to use Layout with working build
+
+[33mcommit c65660ec320a3f6ba66fe99b873bd0e10122f3c0[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 14:44:35 2025 +0100
+
+    Use Layout on homepage to show logo on all pages
+
+[33mcommit e768909dddb32676ca79787d1e7ee1d99f9185a9[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 12:58:10 2025 +0100
+
+    Remove contact form button and simplify booking options
+
+[33mcommit ea245d4966ce93ce5f9a9d76f87c0c30672880a9[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 12:50:34 2025 +0100
+
+    Simplified booking page with email and WhatsApp links
+
+[33mcommit 42e87cf24e772680aedd8ca4389f18b0ea9a4985[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 11:54:04 2025 +0100
+
+    Finalise Formsubmit booking form with redirect
+
+[33mcommit b38b6718ddc1c2fa379288763f51bfaca56b1c3d[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 11:49:31 2025 +0100
+
+    Connect booking form to Formsubmit and add thank-you page
+
+[33mcommit 6ba4624df7b088fd447646c9ecbfbe98e46dfd5d[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 11:40:54 2025 +0100
+
+    Fix booking route path
+
+[33mcommit 75ed76b15aa8f18ed3039ad1b2514949eab4b0b1[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 11:02:01 2025 +0100
+
+    Increase logo size and remove underline
+
+[33mcommit ce602d67e3ba0f9e7296e8242fddf42143301a0f[m
+Merge: 1c07946 ae5e50d
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 10:58:02 2025 +0100
+
+    Resolve conflict and update logo/header
+
+[33mcommit ae5e50d5554bb180a12fd7209031194e6c7abb3b[m[33m ([m[1;31morigin/rollback-hero[m[33m, [m[1;32mrollback-hero[m[33m)[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 10:36:30 2025 +0100
+
+    Add logo to top-left of header
+
+[33mcommit 1c07946b8e39c40631a5f28dce229efebb909cef[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 09:44:57 2025 +0100
+
+    Add logo image and update hero section
+
+[33mcommit 87277b3f51eba5c199e35a7743c61f193bdb1e8b[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat May 24 09:30:10 2025 +0100
+
+    Added logo to header
+
+[33mcommit 29b569e4bf74a472ed6ca63ea91e13635c6c181d[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun May 18 18:51:38 2025 +0100
+
+    Fix contact info formatting and update Instagram/email
+
+[33mcommit 327825721aa3d54d50e002552456844432548287[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun May 18 18:48:19 2025 +0100
+
+    Update contact details to Dublin Pet Grooming
+
+[33mcommit 79d024b235e49f94dc8fece0b2260bf45619c02d[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun May 18 18:35:44 2025 +0100
+
+    Update business name to Dublin Pet Grooming
+
+[33mcommit 3e566c48ca0ac706e777254db84eef35d7d7f5d4[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun May 18 14:29:21 2025 +0100
+
+    Describe your changes here
+
+[33mcommit 15c266b1f0c52cfd0febd5338637b90e60e8676c[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 20:21:44 2025 +0100
+
+    Force redeploy
+
+[33mcommit 84680434ede33827b88abd954236149f82b1caa9[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 19:21:42 2025 +0100
+
+    Fix: restore map and update About Us to Dublin Fur Care
+
+[33mcommit f1b0c4cb4706f6bed57458765b58746d6972a7c2[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 19:15:34 2025 +0100
+
+    Fix JSX fragment and update About Us text
+
+[33mcommit 8ad285b7a76e350ce409e3fedcfbcaa141d558e9[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 19:07:47 2025 +0100
+
+    Restore map, remove header title, and update About Us section
+
+[33mcommit 09bf2a33f8aaf2edaa28beacac263a36c12703a1[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 18:49:23 2025 +0100
+
+    Update About Us section back to Dublin Fur Care
+
+[33mcommit 774eb69ddd5c1c5cc38f27427981549e7c9acea2[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 18:32:58 2025 +0100
+
+    Fix: Restore header and paw-hand image in Hero
+
+[33mcommit 395792371462d4afb953f860bca6353aad219a50[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 18:21:02 2025 +0100
+
+    Fix: Close section tag in Hero component
+
+[33mcommit 4f6bd770d8f3920364a4f00ec80a24e6e91445b3[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 18:09:19 2025 +0100
+
+    Rebrand back to Dublin Fur Care and update About Us section
+
+[33mcommit 93998e4680ec6a05a952d51899f71773ad394548[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 17:58:52 2025 +0100
+
+    Revert font, update About Us, keep watermark and styling
+
+[33mcommit d60dd7b525a7ba7c7c8961598fb4ce87b5a3a5dd[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 12:25:15 2025 +0100
+
+    Fix: revert font styling and update About Us heading
+
+[33mcommit cc22cac8deecd4629773bd3b42a10d5e6308cf2a[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 12:18:33 2025 +0100
+
+    Use Playfair for headings and apply branding polish
+
+[33mcommit 342d6605753d98dd3a0b88c7e81769e9f9cae044[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 12:04:08 2025 +0100
+
+    Update About Us with grooming certifications and Dub Dogs branding
+
+[33mcommit 50891d4979f228e21a70cf2ce1330ea09340b729[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 11:26:52 2025 +0100
+
+    Update Hero section with faded background and animated paw button
+
+[33mcommit 538e281577b68c6ebef2511c87cb73ad129328f2[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 11:17:21 2025 +0100
+
+    Increase watermark visibility in Hero background
+
+[33mcommit 4acbda0949d800992b5beefddc0921fba059c961[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 10:14:14 2025 +0100
+
+    Remove placeholder FAQ section from homepage
+
+[33mcommit 59c84de349b4745115d765e6e71646b0985c733e[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 10:11:06 2025 +0100
+
+    Fix header nav and remove placeholder FAQs section
+
+[33mcommit 6ffbab9a2bab3fb5c431d9a24fc085c2c60f0c81[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 10:00:51 2025 +0100
+
+    Restore styled FAQ section with updated answers
+
+[33mcommit 1b60b10649a57cfeb1526f88450bcbd7917c99ba[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 09:35:42 2025 +0100
+
+    Fix: removed top logo and increased watermark visibility
+
+[33mcommit 70ce6034af7f6aa6f3caf5e6d8e7dbe82d34220e[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 09:30:19 2025 +0100
+
+    Final update: working scroll nav, restored hero, embedded video
+
+[33mcommit 79cf6e3038e3d17a443556ef7948820a45b5699d[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 09:18:05 2025 +0100
+
+    Fix mobile nav, simplify Book Now button, restore background watermark
+
+[33mcommit b68a159fb52b447a52a5456d557d303e0dab5280[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 09:04:54 2025 +0100
+
+    Add puppy peeking out of O in Hero
+
+[33mcommit 8e4d23b8667f4585e7999d284f85fcfb7756292e[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 08:41:43 2025 +0100
+
+    Improve watermark background for Hero section
+
+[33mcommit b8ab7c1d1f518460344419e628233c16340f11fd[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sun Apr 20 08:35:38 2025 +0100
+
+    Update header and hero with watermark and burger menu
+
+[33mcommit 717dd2473cdbe98eb559a8352da83eb19c310f5d[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 21:19:22 2025 +0100
+
+    Add faded paw-hand watermark background to Hero section
+
+[33mcommit 48c33a1bd646976820ef50e7877ebe32496d072d[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 21:01:12 2025 +0100
+
+    Revert Hero to clean version (no watermark)
+
+[33mcommit 30bae957b0db2c3fe3a365b2acbb3a20fe58caed[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 20:57:12 2025 +0100
+
+    Add watermark-style background to Hero section
+
+[33mcommit 26c2d59aa26717058508ade7f320093faf671b68[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 20:53:20 2025 +0100
+
+    Add paw-hand watermark to hero section
+
+[33mcommit 1ec01b8a5ed13acf13c5249ddd8b8e70f42b90f2[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 20:47:50 2025 +0100
+
+    Update hero section with stylish design and background
+
+[33mcommit 9caf21af2e9aacef4452bf1955351d9785b5aa1c[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 19:46:29 2025 +0100
+
+    Move video below Meet the Team and reduce size
+
+[33mcommit 01ae7ed54548d63aa8902fd80679d8d3e6edb549[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 19:07:38 2025 +0100
+
+    Restore layout, add video under About Us, and style Book Now button
+
+[33mcommit e4fef38bc5de5bbb544aebd794a68348022c4a66[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 19:03:24 2025 +0100
+
+    Update layout with hero, video, about, gallery and styled Book Now button
+
+[33mcommit 9726f9383539272acec7ac77be32458e1886f4c8[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 18:55:39 2025 +0100
+
+    Update homepage layout and styling
+
+[33mcommit ca51525841666d22a614710edfe19e13db932f1c[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 18:39:58 2025 +0100
+
+    Add missing Footer component
+
+[33mcommit 40c326eeaaa0660401164dd495f692138c8f5440[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 18:37:23 2025 +0100
+
+    Add styled About Us and Gallery sections
+
+[33mcommit be655752e44dbe641be31ba0066a500b35a3796e[m[33m ([m[1;32mstable-version[m[33m)[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 17:50:03 2025 +0100
+
+    Rebrand to Dub Dogs Grooming, restore welcome video
+
+[33mcommit 92e0b8e9a8d782d74987787bd65fa9d0673be71d[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 17:43:17 2025 +0100
+
+    Rebrand to Dub Dogs Grooming with video and updated styling
+
+[33mcommit 99b608744d87511ea51d9a65fad59ccedbab2cf1[m[33m ([m[1;31morigin/stable-version[m[33m)[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 17:33:40 2025 +0100
+
+    Trigger rebuild
+
+[33mcommit 3d260128d07389a4a52c96c769dc7ba99a0fc65c[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 16:34:29 2025 +0100
+
+    New hero banner with Dub Dogs Grooming and paw background
+
+[33mcommit 029f1721d5bb9b644398d4495997e2e73993a16f[m[33m ([m[1;33mtag: [m[1;33mstable-release[m[33m)[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 14:29:51 2025 +0100
+
+    Fix Gallery import and update main homepage
+
+[33mcommit 8753fb20e6965362ed9ca7f8d899d8ba8bdfcb8e[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 14:25:25 2025 +0100
+
+    Add WhatsApp button with correct number in _app.tsx
+
+[33mcommit 6406cf34993a0ac3abf2e6c35c6c0c27aa99b7da[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 14:18:11 2025 +0100
+
+    Add missing gallery page
+
+[33mcommit 75850696cc80b67fb18e6a43198150059ad32005[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 13:59:00 2025 +0100
+
+    Fix video path and WhatsApp number properly
+
+[33mcommit 1c4c2d12cb0653ccf583667930ff94bcdac1dc3a[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 13:46:38 2025 +0100
+
+    Fix hero video path and WhatsApp link
+
+[33mcommit e9b85e4f23b5679206888cffd70dd37d72450cdd[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 13:37:18 2025 +0100
+
+    Add working WhatsApp button to Hero
+
+[33mcommit 4660bed99ab20def2d1ea04d3da10fcac49139f8[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 09:38:56 2025 +0100
+
+    Switch hero layout to CSS grid and remove extra space
+
+[33mcommit 9c84ce8f97ac57e91d56a4b2771e755e27ba0228[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 09:00:35 2025 +0100
+
+    Balance hero layout and remove excess spacing
+
+[33mcommit efc639d7e109ac19855929ee157b76716fb01290[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 08:54:41 2025 +0100
+
+    Tighten hero layout and balance spacing
+
+[33mcommit 79a212549768e9b35631f0b253925bc036a8bd03[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 08:48:12 2025 +0100
+
+    Revert to clean hero layout with Chewy font and WhatsApp button
+
+[33mcommit f3d75213658dbad302219d3e5f5fc62370446792[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Sat Apr 19 08:45:11 2025 +0100
+
+    Update hero with faded background and WhatsApp link
+
+[33mcommit 1e3896ec6cc2ca0bdeaf5b68eff06f28df45d5d9[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 21:42:53 2025 +0100
+
+    Auto-close mobile menu on link click
+
+[33mcommit 5d75c187c42e7941c3d1ae0f4d3727fbe71e9f37[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 21:24:58 2025 +0100
+
+    Final fix: use GitHub-uploaded background image on services page
+
+[33mcommit 63c56ff9375eb60c51d53dc3db400499d37d0ae8[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 21:17:41 2025 +0100
+
+    Add background image as cat-background.jpg
+
+[33mcommit 364cffe5f8ccb23f08f918f1eaff8f25b1ebb315[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 21:15:09 2025 +0100
+
+    Force-add cropped.jpg for mobile background
+
+[33mcommit c10a8949922f11dd91b3b4d51b527596f84d4e6e[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 21:10:59 2025 +0100
+
+    Fix background rendering on Services page for mobile and desktop
+
+[33mcommit ca296ebc3b0c6242b4000821bf8713aa9023a9e1[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 21:07:18 2025 +0100
+
+    Fix: use real image element for Services background (mobile-safe)
+
+[33mcommit 323925f51bf43f61f33ca51d0fa9de0c34990681[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 21:02:02 2025 +0100
+
+    Fix background by using image tag instead of CSS background
+
+[33mcommit eb03151428e1c6626a2638dcabef8b2867a38c01[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 20:57:02 2025 +0100
+
+    Fix background image rendering on mobile for services and faqs
+
+[33mcommit 82833466b941cc7334f9cbebd76ee60aeadef69e[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 20:54:04 2025 +0100
+
+    Use cropped image as full background for all screen sizes
+
+[33mcommit 0a09e6a3699bbb1446144a1583ebb0b7f8507dbf[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 20:49:45 2025 +0100
+
+    Add mobile-friendly backgrounds to Services and FAQs
+
+[33mcommit 462681c6c3fb86c9fd5699f165f2c6db3afb7a51[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 20:46:13 2025 +0100
+
+    Use cropped background image for mobile on Our Story
+
+[33mcommit 65efc4a0a5ce1262213e53d9b011f20079019378[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 20:31:23 2025 +0100
+
+    Fix background centering on Our Story for mobile
+
+[33mcommit c4bef5e92fd5d5f76593932aa596c603cb237018[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 20:18:13 2025 +0100
+
+    Clean up gallery layout and remove image captions
+
+[33mcommit 3a7a5428f4c55db4b2679eb0f2a906d37df67d88[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 20:15:00 2025 +0100
+
+    Update gallery with cat window photo
+
+[33mcommit 1123471ecf8bb2d142e2322990f86eead04b3822[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 20:11:39 2025 +0100
+
+    Replace van photo with cat window image in gallery
+
+[33mcommit 884983d1a1069a600229eed50321c009b671bb14[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 20:04:49 2025 +0100
+
+    Use Our Story background for FAQs page
+
+[33mcommit f25a221f49d3382fb9df99aaf2fa5233838b1980[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 20:01:52 2025 +0100
+
+    Fix image path for FAQs background
+
+[33mcommit bb88871d1f28b37dbb1c1b5cf448d524505542ef[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 19:58:00 2025 +0100
+
+    Add faded background and styled back button to FAQs page
+
+[33mcommit 02203e6eff879a52d0b4042935000e4931e562db[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 19:53:43 2025 +0100
+
+    Fix: add missing WhatsAppButton component
+
+[33mcommit cdfd95b8d5a2f715469cfa973b9dcde3327898ea[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 19:47:44 2025 +0100
+
+    Enable WhatsApp button across all pages
+
+[33mcommit 8090a7654848320b62b19e5179b7dfd5d3005448[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 19:44:56 2025 +0100
+
+    Add faded backgrounds and styled back buttons to subpages
+
+[33mcommit 68e09c40c971f968e0a6e5ea78ec2bcc2db35031[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 19:22:42 2025 +0100
+
+    Add faded background image to Our Story
+
+[33mcommit d7e55f45f3691ce4ed2053743239a156670a85ef[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 19:18:41 2025 +0100
+
+    Update Bahar’s cat photo
+
+[33mcommit a6d8e8ea9b066fdeb37edccc4f8b8f6ee2b4b9bc[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 19:06:30 2025 +0100
+
+    Add Meet the Team section with Bahar’s cats
+
+[33mcommit de4ebb5364fd37f4878fcc263c620256dd08ef75[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 18:59:18 2025 +0100
+
+    Redesign hero layout for better spacing and mobile
+
+[33mcommit 432ecd23794536d0b2246ac1b4288ee2f04d78a4[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 18:55:14 2025 +0100
+
+    Improve hero styling and yellow tone
+
+[33mcommit 31187178b72978ae003b04a0f34e87a68ad3c7cf[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 18:47:18 2025 +0100
+
+    Add Google Map to homepage under Areas We Cover
+
+[33mcommit fd8011cd0df57a8280c7ec3ad7ae2a919984de2b[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 18:40:56 2025 +0100
+
+    Add Services, Our Story, FAQs pages and header links
+
+[33mcommit 64e693b4b4e9407acad891aa8d063a1f47b31dc2[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 18:25:44 2025 +0100
+
+    Apply Chewy font to logo heading
+
+[33mcommit 421a6a935bf2faf3e5208e0a5db885f73614292a[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 18:14:17 2025 +0100
+
+    Tighten layout and spacing on homepage
+
+[33mcommit 8717c3e01806998d2e2cf4b2fb4c453dd247b627[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 18:05:38 2025 +0100
+
+    Improved homepage with sections and local info
+
+[33mcommit 57dbda0d8d84ec4e34607be8c1719182402cacd9[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 18:00:03 2025 +0100
+
+    Add About Us section with Bahar’s background
+
+[33mcommit 285cf7bc5038fce25607ef4e7c52cbd81c96604e[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 17:29:01 2025 +0100
+
+    Add About Us section below Hero
+
+[33mcommit eb0372bca650231dd7f76d6ea1708a0c4e0adb73[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 17:24:21 2025 +0100
+
+    Final fix: moved all assets to public/images/
+
+[33mcommit 7bbea969af54bf74abc44e6cd0b903dbe9b5ff6e[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 15:30:30 2025 +0100
+
+    Save everything before final rebase retry
+
+[33mcommit d55e783394b1f2545a196a22051e97c1d2d7e1b6[m
+Author: JohnCafferty <johncaffertyx@Gmail.com>
+Date:   Fri Apr 18 15:03:21 2025 +0100
+
+    Create images
+
+[33mcommit caf541ddba39aebbe64ad3079c92b336af7e987c[m
+Author: JohnCafferty <johncaffertyx@Gmail.com>
+Date:   Fri Apr 18 15:02:15 2025 +0100
+
+    Create .gitkeep
+
+[33mcommit 014ea7343e243a38e5e6fcfab6862c93e2fdd535[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 14:08:00 2025 +0100
+
+    Trigger rebuild after uploading images manually
+
+[33mcommit a79512999229d4c5151efe07c6694066e2cb969c[m
+Author: JohnCafferty <johncaffertyx@Gmail.com>
+Date:   Fri Apr 18 13:48:06 2025 +0100
+
+    Upload images manually for working deployment
+    
+    Upload images manually for working deployment
+
+[33mcommit 5452f4c7103ef0eca58376c76ba5fb9ddeecabf1[m
+Author: JohnCafferty <johncaffertyx@Gmail.com>
+Date:   Fri Apr 18 13:36:13 2025 +0100
+
+    Create .gitkeep
+
+[33mcommit 3d2967155492398f0ed95b0a7cb18908f1e6300f[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 13:32:46 2025 +0100
+
+    Trigger rebuild for image verification
+
+[33mcommit d0c30809d43ae098c24965a4d3e98ee9344f782b[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 13:19:20 2025 +0100
+
+    Fix: clean and restore full Gallery component
+
+[33mcommit a8e94539d3f357d2cf3ec983056bba14726e1735[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 13:17:25 2025 +0100
+
+    Fix: restore valid Gallery component with Image import
+
+[33mcommit daf2db2b74e4c919ea589935bbc6dd5f8429a235[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 13:16:03 2025 +0100
+
+    Restore Gallery component after folder rename
+
+[33mcommit 521b9e61245b12d2e3165e4ab267041685d3c7c0[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 13:12:16 2025 +0100
+
+    Fix: renamed Images folder to images for case-sensitive deployment
+
+[33mcommit 652b613b22f9317a6be681b94c2161fea7a2ef37[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 13:04:01 2025 +0100
+
+    Fix: corrected Gallery.tsx and verified image paths
+
+[33mcommit 409849fc39705fe9174928deaa7bd63af79a7e76[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 12:57:42 2025 +0100
+
+    Fix: update image path for bath-brush
+
+[33mcommit a8c99e748d2da3fd4fc1e3e2820f4b8da1fdc3fb[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 12:43:03 2025 +0100
+
+    Fix: correct types in _app.tsx for deployment
+
+[33mcommit 4c9ea3b01f3c4d8a967a1c565368ce6a6b92e81f[m
+Author: John Cafferty <johncaffertyx@gmail.com>
+Date:   Fri Apr 18 12:31:30 2025 +0100
+
+    First live version of Dublin Fur Care
