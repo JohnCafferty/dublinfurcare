@@ -1,50 +1,64 @@
+import Head from "next/head";
+import Layout from "../components/Layout";
+
 export default function Services() {
-    return (
-      <main className="relative min-h-screen bg-white overflow-hidden">
-        {/* Background Image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10 z-0 h-full"
-          style={{
-            backgroundImage: "url('/images/cat-background.jpg')",
-          }}
-        ></div>
-  
-        {/* Content */}
-        <div className="relative z-10 px-6 py-16 max-w-4xl mx-auto text-center text-gray-800">
-          <h1 className="text-3xl font-bold mb-6">Services</h1>
-  
-          <div className="space-y-6 text-left">
-            <div>
-              <h2 className="text-xl font-semibold">Full Groom</h2>
-              <p>Includes wash, dry, brush, full body trim, ear cleaning and nail clipping.</p>
-            </div>
-            <div>
-              <h2 className="text-xl font-semibold">Bath & Brush</h2>
-              <p>A warm bath, gentle blow-dry and a good brush-out. Great for in between full grooms.</p>
-            </div>
-            <div>
-              <h2 className="text-xl font-semibold">Nail Trim</h2>
-              <p>Quick and calm nail clipping. We let them settle and take our time.</p>
-            </div>
-            <div>
-              <h2 className="text-xl font-semibold">Cat Groom</h2>
-              <p>Bathing, brushing and light trimming if needed. We keep things quiet and calm.</p>
-            </div>
-            <div>
-              <h2 className="text-xl font-semibold">Puppy Intro</h2>
-              <p>A short, gentle first groom to help puppies feel safe and relaxed.</p>
-            </div>
+  return (
+    <>
+      <Head>
+        <title>Services | Dublin Pet Grooming - Dog Grooming & Pet Sitting</title>
+        <meta
+          name="description"
+          content="Dog grooming and pet sitting services including full groom, bath & brush, nail trim, puppy intro, and reliable in-home pet care."
+        />
+      </Head>
+
+      <Layout>
+        <main className="px-4 py-12 max-w-4xl mx-auto">
+          <h1 className="text-4xl font-bold mb-10 text-center">Our Services</h1>
+
+          <section className="mb-10">
+            <h2 className="text-2xl font-semibold mb-2">Full Groom</h2>
+            <p className="text-gray-700">
+              Includes wash, dry, brush, full body trim, ear cleaning and nail clipping.
+            </p>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="text-2xl font-semibold mb-2">Bath &amp; Brush</h2>
+            <p className="text-gray-700">Ideal for maintenance between full grooms.</p>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="text-2xl font-semibold mb-2">Nail Trim</h2>
+            <p className="text-gray-700">Quick and stress-free nail clipping.</p>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="text-2xl font-semibold mb-2">Puppy Intro</h2>
+            <p className="text-gray-700">
+              A short, positive first grooming experience.
+            </p>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="text-2xl font-semibold mb-2">Cat &amp; Dog Sitting</h2>
+            <p className="text-gray-700">
+              Reliable in-home care for your pets when you're away. Includes feeding,
+              fresh water, playtime, and companionship to keep your pets happy and relaxed
+              in their own environment. Perfect when you’re on holiday or busy for the day.
+            </p>
+          </section>
+
+          <div className="mt-12 text-center">
+            <a
+              href="/"
+              className="inline-block px-6 py-2 text-lg font-medium border rounded-lg hover:bg-gray-100"
+            >
+              ← Back to Home
+            </a>
           </div>
-  
-          {/* Back to Home Button */}
-          <a
-            href="/"
-            className="inline-block mt-10 px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition"
-          >
-            ← Back to Home
-          </a>
-        </div>
-      </main>
-    );
-  }
-  
+        </main>
+      </Layout>
+    </>
+  );
+}
