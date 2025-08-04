@@ -11,12 +11,6 @@ export default function ServicesPage() {
             backgroundImage: "url('/images/cropped.jpg')",
           }}
         />
-        <div
-          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0 hidden md:block"
-          style={{
-            backgroundImage: "url('/images/bahar-cats1.png')",
-          }}
-        />
 
         {/* Main Content */}
         <div className="relative max-w-4xl mx-auto text-center z-10">
@@ -31,7 +25,7 @@ export default function ServicesPage() {
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-1">Bath & Brush</h3>
+              <h3 className="text-lg font-semibold mb-1">Bath &amp; Brush</h3>
               <p className="text-gray-700">
                 Ideal for maintenance between full grooms.
               </p>
@@ -45,16 +39,19 @@ export default function ServicesPage() {
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-1">Cat Groom</h3>
+              <h3 className="text-lg font-semibold mb-1">Puppy Intro</h3>
               <p className="text-gray-700">
-                Gentle handling with a calm and quiet approach.
+                A short, positive first grooming experience.
               </p>
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-1">Puppy Intro</h3>
+              <h3 className="text-lg font-semibold mb-1">Cat &amp; Dog Sitting</h3>
               <p className="text-gray-700">
-                A short, positive first grooming experience.
+                Reliable in-home care for your pets when you're away. Includes feeding,
+                fresh water, playtime, and companionship to keep your pets happy and
+                relaxed in their own environment. Perfect when you’re on holiday or busy
+                for the day.
               </p>
             </div>
           </div>
