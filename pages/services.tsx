@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 
 export default function Services() {
   return (
+<<<<<<< HEAD
     <>
       <Head>
         <title>Services | Dublin Pet Grooming - Dog Grooming & Pet Sitting</title>
@@ -11,6 +12,17 @@ export default function Services() {
           content="Dog grooming and pet sitting services including full groom, bath & brush, nail trim, puppy intro, and reliable in-home pet care."
         />
       </Head>
+=======
+    <Layout>
+      <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden text-gray-900">
+        {/* Faded Background Image */}
+        <div
+          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0"
+          style={{
+            backgroundImage: "url('/images/cropped.jpg')",
+          }}
+        />
+>>>>>>> prod-2024-08-04
 
       <Layout>
         <main className="px-4 py-12 max-w-4xl mx-auto">
@@ -23,16 +35,26 @@ export default function Services() {
             </p>
           </section>
 
+<<<<<<< HEAD
           <section className="mb-10">
             <h2 className="text-2xl font-semibold mb-2">Bath &amp; Brush</h2>
             <p className="text-gray-700">Ideal for maintenance between full grooms.</p>
           </section>
+=======
+            <div>
+              <h3 className="text-lg font-semibold mb-1">Bath &amp; Brush</h3>
+              <p className="text-gray-700">
+                Ideal for maintenance between full grooms.
+              </p>
+            </div>
+>>>>>>> prod-2024-08-04
 
           <section className="mb-10">
             <h2 className="text-2xl font-semibold mb-2">Nail Trim</h2>
             <p className="text-gray-700">Quick and stress-free nail clipping.</p>
           </section>
 
+<<<<<<< HEAD
           <section className="mb-10">
             <h2 className="text-2xl font-semibold mb-2">Puppy Intro</h2>
             <p className="text-gray-700">
@@ -48,6 +70,25 @@ export default function Services() {
               in their own environment. Perfect when you’re on holiday or busy for the day.
             </p>
           </section>
+=======
+            <div>
+              <h3 className="text-lg font-semibold mb-1">Puppy Intro</h3>
+              <p className="text-gray-700">
+                A short, positive first grooming experience.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-1">Cat &amp; Dog Sitting</h3>
+              <p className="text-gray-700">
+                Reliable in-home care for your pets when you're away. Includes feeding,
+                fresh water, playtime, and companionship to keep your pets happy and
+                relaxed in their own environment. Perfect when you’re on holiday or busy
+                for the day.
+              </p>
+            </div>
+          </div>
+>>>>>>> prod-2024-08-04
 
           <div className="mt-12 text-center">
             <a
