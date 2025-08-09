@@ -9,11 +9,14 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Dublin Pet Grooming | Gentle, Cage-Free Dog Grooming & Pet Sitting
+          <title>
+  Dublin Pet Grooming | Professional, One-to-One Dog Grooming & Pet Sitting
+</title>
+
         </title>
         <meta
           name="description"
-          content="Professional, one-to-one dog grooming and pet sitting in South Dublin. Gentle, cage-free grooms with reliable in-home pet care."
+          content="Professional, one-to-one dog grooming and pet sitting in South Dublin. Calm, unrushed grooms with reliable in-home pet care."
         />
       </Head>
 
@@ -28,18 +31,18 @@ export default function Home() {
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">About Us</h2>
             <p className="text-lg leading-relaxed text-gray-700">
-              Dublin Pet Grooming is run by Bahar. She is a gentle and experienced
-              groomer with a lifelong love of animals. She has a calm and patient
-              approach from years of caring for pets of all temperaments.
+              Dublin Pet Grooming is run by Bahar, an experienced groomer with a
+              lifelong love of animals. She has a calm, patient approach shaped
+              by years of caring for pets of all temperaments.
               <br />
               <br />
               Bahar holds both national and international certification in pet
               grooming and brings professional care to every appointment.
               <br />
               <br />
-              Every session is one to one. There are no cages, no rushing, and no
-              noisy salon. Whether it’s a quick tidy-up or a full groom, your pet
-              gets her full attention in a quiet and familiar setting.
+              Every session is one-to-one. There’s no rushing and no noisy
+              salon. Whether it’s a quick tidy-up or a full groom, your pet gets
+              her full attention in a quiet, relaxed setting.
             </p>
           </div>
         </section>
@@ -65,7 +68,7 @@ export default function Home() {
               <div>
                 <h3 className="text-lg font-semibold mb-1">Full Groom</h3>
                 <p className="text-gray-700">
-                  Includes wash, dry, brush, full body trim, ear cleaning and nail clipping.
+                  Includes wash, dry, brush, full body trim, ear cleaning, and nail clipping.
                 </p>
               </div>
               <div>
@@ -87,9 +90,8 @@ export default function Home() {
               <div>
                 <h3 className="text-lg font-semibold mb-1">Cat &amp; Dog Sitting</h3>
                 <p className="text-gray-700">
-                  Reliable in-home care for your pets when you're away. Includes
-                  feeding, fresh water, playtime, and companionship to keep them
-                  happy and relaxed in their own environment.
+                  Reliable in-home care when you're away with feeding, fresh water,
+                  playtime, and companionship so they stay relaxed in their own environment.
                 </p>
               </div>
             </div>
@@ -103,7 +105,7 @@ export default function Home() {
             <p className="text-lg text-gray-700 mb-10">
               We’re based around Stepaside and usually cover Carrickmines,
               Sandyford, Kilternan, Ballyogan, Leopardstown, Glencullen,
-              Belarmine and Dundrum. If you're nearby and not sure, just ask and
+              Belarmine, and Dundrum. If you're nearby and not sure, just ask and
               we’ll let you know.
             </p>
             <div className="aspect-video max-w-4xl mx-auto rounded shadow overflow-hidden">
