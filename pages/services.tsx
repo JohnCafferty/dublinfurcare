@@ -41,17 +41,16 @@ export default function ServicesPage() {
             <div>
               <h3 className="text-lg font-semibold mb-1">Puppy Intro</h3>
               <p className="text-gray-700">
-                A short, positive first grooming experience.
+                A short, positive first grooming experience for puppies.
               </p>
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-1">Cat &amp; Dog Sitting</h3>
+              <h3 className="text-lg font-semibold mb-1">Dog Sitting</h3>
               <p className="text-gray-700">
-                Reliable in-home care for your pets when you're away. Includes feeding,
-                fresh water, playtime, and companionship to keep your pets happy and
-                relaxed in their own environment. Perfect when you’re on holiday or busy
-                for the day.
+                Reliable in-home care for your dog when you're away. Includes feeding,
+                fresh water, playtime, and companionship to keep them happy and relaxed
+                in their own environment.
               </p>
             </div>
           </div>
