@@ -3,100 +3,42 @@ import Layout from "../components/Layout";
 
 export default function Services() {
   return (
-<<<<<<< HEAD
     <>
       <Head>
         <title>Services | Dublin Pet Grooming - Dog Grooming & Pet Sitting</title>
         <meta
           name="description"
-          content="Dog grooming and pet sitting services including full groom, bath & brush, nail trim, puppy intro, and reliable in-home pet care."
+          content="Professional, one-to-one dog grooming and pet sitting in South Dublin. Gentle handling, clean styling, and flexible bookings."
         />
       </Head>
-=======
-    <Layout>
-      <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden text-gray-900">
-        {/* Faded Background Image */}
-        <div
-          className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0"
-          style={{
-            backgroundImage: "url('/images/cropped.jpg')",
-          }}
-        />
->>>>>>> prod-2024-08-04
 
       <Layout>
-        <main className="px-4 py-12 max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold mb-10 text-center">Our Services</h1>
+        <main className="relative px-6 py-16 min-h-screen bg-white overflow-hidden text-gray-900">
+          <div
+            className="absolute inset-0 bg-no-repeat bg-cover opacity-10 z-0"
+            style={{ backgroundImage: "url('/images/cropped.jpg')" }}
+          />
 
-          <section className="mb-10">
-            <h2 className="text-2xl font-semibold mb-2">Full Groom</h2>
-            <p className="text-gray-700">
-              Includes wash, dry, brush, full body trim, ear cleaning and nail clipping.
-            </p>
-          </section>
+          <div className="relative max-w-5xl mx-auto z-10">
+            <h1 className="text-3xl font-bold mb-10 text-center">Our Services</h1>
 
-<<<<<<< HEAD
-          <section className="mb-10">
-            <h2 className="text-2xl font-semibold mb-2">Bath &amp; Brush</h2>
-            <p className="text-gray-700">Ideal for maintenance between full grooms.</p>
-          </section>
-=======
-            <div>
-              <h3 className="text-lg font-semibold mb-1">Bath &amp; Brush</h3>
-              <p className="text-gray-700">
-                Ideal for maintenance between full grooms.
-              </p>
+            <div className="grid gap-8 md:grid-cols-2">
+              <section className="p-6 rounded-2xl shadow-sm border bg-white/80 backdrop-blur">
+                <h2 className="text-xl font-semibold mb-2">Full Groom</h2>
+                <p className="text-sm mb-4">
+                  Bath & blow-dry, brush-out, nail trim, ear clean, hygiene trim, and
+                  coat styling to your preference (breed standard or practical pet trim).
+                </p>
+              </section>
+
+              <section className="p-6 rounded-2xl shadow-sm border bg-white/80 backdrop-blur">
+                <h2 className="text-xl font-semibold mb-2">Bath & Brush</h2>
+                <p className="text-sm mb-4">
+                  Deep cleanse, blow-dry, full brush-out, paw tidy, and nails. Ideal
+                  between full grooms to keep coats healthy and knot-free.
+                </p>
+              </section>
             </div>
->>>>>>> prod-2024-08-04
-
-          <section className="mb-10">
-            <h2 className="text-2xl font-semibold mb-2">Nail Trim</h2>
-            <p className="text-gray-700">Quick and stress-free nail clipping.</p>
-          </section>
-
-<<<<<<< HEAD
-          <section className="mb-10">
-            <h2 className="text-2xl font-semibold mb-2">Puppy Intro</h2>
-            <p className="text-gray-700">
-              A short, positive first grooming experience.
-            </p>
-          </section>
-
-          <section className="mb-10">
-            <h2 className="text-2xl font-semibold mb-2">Cat &amp; Dog Sitting</h2>
-            <p className="text-gray-700">
-              Reliable in-home care for your pets when you're away. Includes feeding,
-              fresh water, playtime, and companionship to keep your pets happy and relaxed
-              in their own environment. Perfect when you’re on holiday or busy for the day.
-            </p>
-          </section>
-=======
-            <div>
-              <h3 className="text-lg font-semibold mb-1">Puppy Intro</h3>
-              <p className="text-gray-700">
-                A short, positive first grooming experience.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold mb-1">Cat &amp; Dog Sitting</h3>
-              <p className="text-gray-700">
-                Reliable in-home care for your pets when you're away. Includes feeding,
-                fresh water, playtime, and companionship to keep your pets happy and
-                relaxed in their own environment. Perfect when you’re on holiday or busy
-                for the day.
-              </p>
-            </div>
-          </div>
->>>>>>> prod-2024-08-04
-
-          <div className="mt-12 text-center">
-            <a
-              href="/"
-              className="inline-block px-6 py-2 text-lg font-medium border rounded-lg hover:bg-gray-100"
-            >
-              ← Back to Home
-            </a>
           </div>
         </main>
       </Layout>
